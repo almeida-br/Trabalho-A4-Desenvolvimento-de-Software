@@ -6,7 +6,7 @@ class Login(models.Model):
     password=models.CharField(max_length=50)
 
 class Professor(models.Model):
-    nome=models.CharField()
+    nome=models.CharField(max_length=50)
 
 class Disciplina(models.Model):
     codigo=models.IntegerField()
@@ -25,4 +25,4 @@ class Aluno(models.Model):
     dataAdmissao=models.DateField()
     turmaCod=models.IntegerField()
     disciplinas=models.ManyToManyField(Disciplina)
-    login=models.OneToOneField(Login)
+    #login=models.OneToOneField(Login)
