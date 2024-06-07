@@ -1,0 +1,1138 @@
+.aluno-disciplinas .title {
+  margin-right: 21px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #E0E0E0, #B5DBFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.aluno-disciplinas .group-2 {
+  width: 54.7px;
+  height: 47.4px;
+}
+.aluno-disciplinas .streamlineglobal-learning {
+  margin: 8.3px 0 19.3px 0;
+  display: flex;
+  width: 54.7px;
+  height: 47.4px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-25 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .group-1 {
+  width: 35.8px;
+  height: 32.5px;
+}
+.aluno-disciplinas .icon-park-outlinelocal {
+  margin: 3.3px 22.6px 4.2px 0;
+  display: flex;
+  width: 35.8px;
+  height: 32.5px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .solaruser-bold {
+  margin-right: 19px;
+  width: 41px;
+  height: 40px;
+}
+.aluno-disciplinas .vector-8 {
+  width: 35px;
+  height: 33.7px;
+}
+.aluno-disciplinas .icon-headset-icon {
+  margin: 3px 0 3.3px 0;
+  display: flex;
+  width: 35px;
+  height: 33.7px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-15 {
+  margin: 0 0px 6px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 153.4px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-1 {
+  background: #F5F5F5;
+  width: 771px;
+  height: 2px;
+}
+.aluno-disciplinas .container-13 {
+  margin: 7.5px 0 19.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 771px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-45 {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5px 43px 7.5px 31px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .discover {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .menu-item {
+  border-radius: 8px;
+  margin: 0 171.1px 12px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .home {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.aluno-disciplinas .home-1 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .menu-item-1 {
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-2 {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.aluno-disciplinas .quadro-de-horrios {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .menu-item-2 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .group-2 {
+  border-radius: 8px;
+  margin-bottom: 4px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-3 {
+  margin: 0.5px 20px 0.5px 0;
+  width: 19px;
+  height: 23px;
+}
+.aluno-disciplinas .disciplinas {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .menu-item-3 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .group {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.aluno-disciplinas .solicitaes {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .menu-item-4 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .group-5 {
+  border-radius: 8px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .sidebar {
+  border-right: 1px solid #E0E0E0;
+  background: #90C3DB;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 74px 16px 616px 15px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .disciplinas-matriculadas {
+  margin: 0 14.8px 17.5px 14.8px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .disciplina {
+  margin-bottom: 7.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .jogos-digitais {
+  margin: 0 11.6px;
+  align-self: flex-start;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container {
+  margin: 1px 27px 0 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .tipo-de-aula {
+  margin-bottom: 25px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .presencial {
+  margin: 0 11.8px 0 6.8px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-2 {
+  margin-bottom: 16.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-43 {
+  margin-bottom: 25.5px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .matriculado {
+  margin-bottom: 35px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-18 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .perodo {
+  position: absolute;
+  right: 19.5px;
+  bottom: 23px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-10 {
+  position: relative;
+  margin: 32px 55.4px 0 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .docente {
+  margin: 0 6.2px 0 7.2px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .fulano-de-tal {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-14 {
+  margin: 0 55.7px 34.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .data-inicial {
+  margin: 0 0.3px 15px 1.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-1 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-28 {
+  margin: 1px 90.4px 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-15 {
+  width: 34.9px;
+  height: 34.9px;
+}
+.aluno-disciplinas .ionellipsis-horizontal-circle-sharp {
+  margin: 46px 0 52px 0;
+  display: flex;
+  width: 34.9px;
+  height: 34.9px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-35 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-26 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1023.7px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .situao {
+  position: absolute;
+  top: 14px;
+  right: 473.3px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-44 {
+  border-radius: 52px;
+  background: #0979B0;
+  position: relative;
+  margin: 0 8px 29px 0;
+  display: flex;
+  padding: 14px 24px 9px 22.3px;
+  width: 1070px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .disciplina-1 {
+  margin: 0 0 17.5px 8.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .desenvolvimento-web {
+  margin-right: 0.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-17 {
+  margin: 1px 27px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .tipo-de-aula-1 {
+  margin-bottom: 25px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .presencial-1 {
+  margin: 0 11.8px 0 6.8px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-12 {
+  margin-bottom: 6.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-34 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .matriculado-1 {
+  margin: 32px 47.3px 21px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .docente-1 {
+  margin: 0 14.3px 16px 15.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .sei-la-quem {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-4 {
+  margin: 0 47.6px 4px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .data-inicial-1 {
+  margin: 0 0.3px 15px 1.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-3 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-22 {
+  margin: 1px 0 4px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-16 {
+  width: 34.9px;
+  height: 34.9px;
+}
+.aluno-disciplinas .ionellipsis-horizontal-circle-sharp-1 {
+  margin-top: 51px;
+  display: flex;
+  width: 34.9px;
+  height: 34.9px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-29 {
+  margin-bottom: 11.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 545.8px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-38 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1032.2px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .situao-1 {
+  position: absolute;
+  top: 0px;
+  right: 449.2px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-6 {
+  position: relative;
+  margin-bottom: 2.5px;
+  display: flex;
+  width: 1032.2px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-2 {
+  margin-left: 53.3px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-32 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1032.2px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .perodo-1 {
+  position: absolute;
+  right: 476.7px;
+  bottom: 32px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-16 {
+  border-radius: 52px;
+  background: #0979B0;
+  position: relative;
+  margin: 0 8px 31px 0;
+  display: flex;
+  padding: 14px 24px 9px 13.7px;
+  width: 1070px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .disciplina-2 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .anlise-orientada-aobjeto {
+  margin: 0 11.1px 0 2.1px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-31 {
+  margin: 7.5px 26.5px 18px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .tipo-de-aula-2 {
+  margin: 0 0 25px 0.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .virtualizada {
+  margin-right: 4.5px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-8 {
+  margin: 6.5px 43.9px 42px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .dependncia-da-turma-disciplina-2 {
+  margin-bottom: 7px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .sala-virtual-teams {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-41 {
+  margin: 0 44.3px 6.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .matriculado-2 {
+  margin-bottom: 35px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-4 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-27 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .perodo-2 {
+  position: absolute;
+  right: 19.5px;
+  bottom: 23px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-21 {
+  position: relative;
+  margin: 38.5px 60.8px 0 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .docente-2 {
+  margin: 0 0.8px 16px 1.8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .beltrano {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-37 {
+  margin: 6.5px 61.1px 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .data-inicial-2 {
+  margin: 0 0.3px 15px 1.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-5 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-36 {
+  margin: 7.5px 86.4px 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-17 {
+  width: 34.9px;
+  height: 34.9px;
+}
+.aluno-disciplinas .ionellipsis-horizontal-circle-sharp-2 {
+  margin: 49.5px 0 55px 0;
+  display: flex;
+  width: 34.9px;
+  height: 34.9px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-39 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .situao-2 {
+  position: absolute;
+  top: 14px;
+  right: 473.3px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-1 {
+  border-radius: 52px;
+  background: #0979B0;
+  position: relative;
+  margin: 0 4px 31px 4px;
+  display: flex;
+  padding: 7.5px 28px 9px 22.3px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .disciplina-3 {
+  margin: 0 2.2px 7.5px 11.2px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .estrutura-de-dados {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-5 {
+  margin: 1px 24.8px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .tipo-de-aula-3 {
+  margin-bottom: 25px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .presencial-2 {
+  margin: 0 11.8px 0 6.8px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-33 {
+  margin-bottom: 16.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-19 {
+  margin-bottom: 25.5px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .matriculado-3 {
+  margin-bottom: 35px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-6 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-20 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .perodo-3 {
+  position: absolute;
+  right: 19.5px;
+  bottom: 23px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-11 {
+  position: relative;
+  margin: 32px 62.6px 0 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .docente-3 {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .ciclano {
+  margin: 0 1.9px 0 0.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-3 {
+  margin: 0 61.9px 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .data-inicial-3 {
+  margin: 0 0.3px 15px 1.3px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-7 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .container-30 {
+  margin: 1px 82.4px 51px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-18 {
+  width: 34.9px;
+  height: 34.9px;
+}
+.aluno-disciplinas .ionellipsis-horizontal-circle-sharp-3 {
+  margin: 46px 0 52px 0;
+  display: flex;
+  width: 34.9px;
+  height: 34.9px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-9 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-23 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1026.9px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .situao-3 {
+  position: absolute;
+  top: 14px;
+  right: 473.3px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-40 {
+  border-radius: 52px;
+  background: #0979B0;
+  position: relative;
+  margin-left: 8px;
+  display: flex;
+  padding: 14px 32px 9px 11.1px;
+  width: 1070px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-7 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .vector-2 {
+  position: absolute;
+  left: 27px;
+  top: 51px;
+  width: 1005px;
+  height: 5.1px;
+}
+.aluno-disciplinas .tjc-221-sala-de-aula {
+  position: absolute;
+  left: 353.3px;
+  top: 131px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .dependncia-da-turma-disciplina {
+  position: absolute;
+  left: 319.1px;
+  top: 80.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .lab-03-sala-de-aula {
+  position: absolute;
+  left: 354.6px;
+  top: 316px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .dependncia-da-turma-disciplina-1 {
+  position: absolute;
+  left: 319.1px;
+  top: 265.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .tjc-209-sala-de-aula {
+  position: absolute;
+  left: 361.3px;
+  bottom: 41px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.aluno-disciplinas .dependncia-da-turma-disciplina-3 {
+  position: absolute;
+  left: 327.1px;
+  bottom: 130.5px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-disciplinas .container-42 {
+  background: #90C3DB;
+  position: relative;
+  margin: 38px 0 30px 0;
+  display: flex;
+  padding: 2.5px 2px 42px 10px;
+  box-sizing: border-box;
+}
+.aluno-disciplinas .container-24 {
+  margin-right: 23px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aluno-disciplinas {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}

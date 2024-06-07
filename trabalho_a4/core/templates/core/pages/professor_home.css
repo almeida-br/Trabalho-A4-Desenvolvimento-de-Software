@@ -1,0 +1,459 @@
+.professor-home .title {
+  margin-right: 12px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #E0E0E0, #B5DBFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.professor-home .group-1 {
+  width: 54.7px;
+  height: 47.4px;
+}
+.professor-home .streamlineglobal-learning {
+  margin: 8.3px 0 19.3px 0;
+  display: flex;
+  width: 54.7px;
+  height: 47.4px;
+  box-sizing: border-box;
+}
+.professor-home .container-1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.professor-home .group-2 {
+  width: 35.8px;
+  height: 32.5px;
+}
+.professor-home .icon-park-outlinelocal {
+  margin: 3.3px 22.6px 4.2px 0;
+  display: flex;
+  width: 35.8px;
+  height: 32.5px;
+  box-sizing: border-box;
+}
+.professor-home .solaruser-bold {
+  margin-right: 19px;
+  width: 41px;
+  height: 40px;
+}
+.professor-home .vector-11 {
+  width: 35px;
+  height: 33.7px;
+}
+.professor-home .icon-headset-icon {
+  margin: 3px 0 3.3px 0;
+  display: flex;
+  width: 35px;
+  height: 33.7px;
+  box-sizing: border-box;
+}
+.professor-home .container-3 {
+  margin: 0 0px 6px 0px;
+  display: flex;
+  flex-direction: row;
+  width: 153.4px;
+  box-sizing: border-box;
+}
+.professor-home .vector-1 {
+  background: #F5F5F5;
+  width: 771px;
+  height: 2px;
+}
+.professor-home .container-13 {
+  margin: 7.5px 0 19.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 771px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .container-9 {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6.5px 43px 3.5px 31px;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.professor-home .discover {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .menu-item {
+  border-radius: 8px;
+  margin: 0 171.1px 12px 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.professor-home .home {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.professor-home .home-1 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .menu-item-1 {
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .vector-2 {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.professor-home .turmas-1 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .menu-item-2 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .group-2 {
+  border-radius: 8px;
+  margin-bottom: 4px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .vector-3 {
+  margin: 0.5px 20px 0.5px 0;
+  width: 19px;
+  height: 23px;
+}
+.professor-home .disciplinas {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .menu-item-3 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .group {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.professor-home .solicitaes {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .menu-item-4 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .group-5 {
+  border-radius: 8px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-home .sidebar {
+  border-right: 1px solid #E0E0E0;
+  background: #90C3DB;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 74px 16px 620px 15px;
+  box-sizing: border-box;
+}
+.professor-home .turmas {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .container-17 {
+  background: #0277BD;
+  position: relative;
+  margin-top: 1px;
+  display: flex;
+  padding: 19.5px 6px 13.5px 0;
+  width: 375px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .disciplina {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.professor-home .container-12 {
+  background: #0277BD;
+  position: relative;
+  margin-bottom: 1px;
+  display: flex;
+  padding: 20.5px 0 12.5px 15px;
+  width: 388px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .container-2 {
+  margin: 0 106px 21px 106px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 915px;
+  box-sizing: border-box;
+}
+.professor-home .checklist {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin: 1.5px 0 7.5px 0;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .fes-030131 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container-11 {
+  margin: 0 3px 14.5px 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 252.4px;
+  box-sizing: border-box;
+}
+.professor-home .checklist-1 {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin-bottom: 9.5px;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .gol-041222 {
+  margin-top: 0.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container-15 {
+  margin: 0 1px 8px 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 260.7px;
+  box-sizing: border-box;
+}
+.professor-home .checklist-2 {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin: 0.5px 0 8.5px 0;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .r-051224 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container-5 {
+  margin-bottom: 9.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 230.1px;
+  box-sizing: border-box;
+}
+.professor-home .checklist-3 {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin-bottom: 9.5px;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .ep-020125 {
+  margin-top: 0.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container-7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 246.2px;
+  box-sizing: border-box;
+}
+.professor-home .container-6 {
+  border-radius: 42px;
+  background: #0277BD;
+  position: relative;
+  margin: 0 147px 7px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 13.5px 0 10.5px 22px;
+  width: 375px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .checklist-4 {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin: 2px 20.6px 2px 0;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .jogos-digitais {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .checklist-5 {
+  background: url('../assets/images/checklist.png') 50% / contain no-repeat;
+  margin: 0 24px 2.5px 0;
+  width: 37px;
+  height: 44px;
+}
+.professor-home .desenvolvimento-web {
+  margin-top: 1.5px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #E0E0E0;
+}
+.professor-home .container-16 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .container-4 {
+  border-radius: 32px;
+  background: #0277BD;
+  position: relative;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 33px 110.5px 18px;
+  box-sizing: border-box;
+}
+.professor-home .container-10 {
+  margin: 0 106px 49px 106px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.professor-home .anuncio-importante-1 {
+  background: url('../assets/images/anuncio_importante_1.png') 50% / cover no-repeat;
+  margin: 0 113px 90px 106px;
+  width: 926px;
+  height: 241px;
+}
+.professor-home .rectangle-1 {
+  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
+  width: 1145px;
+  height: 131px;
+}
+.professor-home .container-8 {
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.professor-home .container-14 {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.professor-home {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,166 @@
+.recuperao-de-senha .title {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: -0.7px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #E0E0E0, #B5DBFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.recuperao-de-senha .group {
+  width: 54.7px;
+  height: 47.4px;
+}
+.recuperao-de-senha .streamlineglobal-learning {
+  position: absolute;
+  left: 50%;
+  top: 33.8px;
+  translate: -50% 0;
+  display: flex;
+  width: 54.7px;
+  height: 47.4px;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .container-2 {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  margin-bottom: 100px;
+  display: flex;
+  padding: 58.5px 52.9px 21.5px 0;
+  width: 1440px;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .recuperao-de-senha-2 {
+  margin: 0 13px 5px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.recuperao-de-senha .para-recuperar-asenha-informe-seu-endereo-de-email-ematricula-que-ns-enviaremos-um-link-para-aalterao-de-senha {
+  margin-bottom: 18.5px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.recuperao-de-senha .matricula {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(99, 99, 99, 0.54);
+}
+.recuperao-de-senha .container-3 {
+  border-radius: 10px;
+  background: #F6F6F6;
+  position: relative;
+  margin: 0 33.5px 25px 33.5px;
+  align-self: flex-start;
+  padding: 11px 15px 8px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .email {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(99, 99, 99, 0.54);
+}
+.recuperao-de-senha .container-1 {
+  border-radius: 10px;
+  background: #F6F6F6;
+  position: relative;
+  margin: 0 33.5px 41px 33.5px;
+  align-self: flex-start;
+  padding: 10px 19px 9px 19px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .enviar {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.recuperao-de-senha .container-4 {
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  background: rgba(29, 65, 108, 0.74);
+  position: relative;
+  margin: 0 33.5px 17px 33.5px;
+  display: flex;
+  align-self: flex-start;
+  padding: 10px 0px 9px 0;
+  width: 415px;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .login {
+  margin-left: 5px;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.47);
+}
+.recuperao-de-senha .container-5 {
+  box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  background: #0277BD;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 29.5px 28.5px 38px 16.5px;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .recuperao-de-senha-1 {
+  margin: 49.5px 0 365.5px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.recuperao-de-senha .container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1642.9px;
+  box-sizing: border-box;
+}
+.recuperao-de-senha .rectangle-7 {
+  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
+  width: 1440px;
+  height: 131px;
+}
+.recuperao-de-senha {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 1440px;
+  box-sizing: border-box;
+}

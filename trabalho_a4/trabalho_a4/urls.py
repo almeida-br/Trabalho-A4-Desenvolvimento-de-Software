@@ -20,6 +20,6 @@ from django.urls import path
 from core.views import index
 
 urlpatterns = [
-    path("",index,name='index'),
+    path("",index,name='login'),
     path("admin/", admin.site.urls)   
 ]

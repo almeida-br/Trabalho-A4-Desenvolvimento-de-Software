@@ -1,0 +1,1087 @@
+.admin-alunos .vector {
+  width: 41.3px;
+  height: 44.7px;
+}
+.admin-alunos .bytesizeoptions {
+  margin-bottom: 8.2px;
+  display: flex;
+  width: 41.3px;
+  height: 44.7px;
+  box-sizing: border-box;
+}
+.admin-alunos .portal-do-admin {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: -0.9px;
+  line-height: 1.1;
+  color: #E5E5E5;
+}
+.admin-alunos .title {
+  margin-top: 2.8px;
+  display: flex;
+  box-sizing: border-box;
+}
+.admin-alunos .container-1 {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.2px 45px 16px 39.9px;
+  width: 1154px;
+  box-sizing: border-box;
+}
+.admin-alunos .alunos-1 {
+  margin: 0 72px 16px 72px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .buscar {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .container-5 {
+  border-radius: 20px;
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 16px;
+  padding: 5px 21.4px;
+  width: 327px;
+  box-sizing: border-box;
+}
+.admin-alunos .turma {
+  margin-right: 15px;
+  width: 157.1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .vector-11 {
+  width: 17.8px;
+  height: 10.2px;
+}
+.admin-alunos .group-1 {
+  margin: 11.1px 0 8.7px 0;
+  display: flex;
+  width: 17.8px;
+  height: 10.2px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-9 {
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 21px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 15.1px 5px 8px;
+  width: 213px;
+  box-sizing: border-box;
+}
+.admin-alunos .data-de-admisso {
+  margin-right: 24.1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .vector-13 {
+  width: 22.5px;
+  height: 25px;
+}
+.admin-alunos .mdicalendar-outline {
+  margin: 2.3px 0 2.8px 0;
+  display: flex;
+  width: 22.5px;
+  height: 25px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-3 {
+  background: #D9D9D9;
+  position: relative;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 11.8px 5px 6.3px;
+  box-sizing: border-box;
+}
+.admin-alunos .disciplina {
+  margin-right: 15px;
+  width: 158.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .vector-12 {
+  width: 17.8px;
+  height: 10.2px;
+}
+.admin-alunos .group-2 {
+  margin: 11.1px 0 8.7px 0;
+  display: flex;
+  width: 17.8px;
+  height: 10.2px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-2 {
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 15.1px 5px 6.2px;
+  width: 213px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-8 {
+  margin: 0 70px 58px 61px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .matricula-132400232 {
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-030131 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-8 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-14 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002321 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301311 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-9 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-141 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002322 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-2 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301312 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-10 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-142 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002323 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-3 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301313 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-11 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-143 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002324 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-4 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301314 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-12 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-144 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002325 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-5 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301315 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-13 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-145 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002326 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-6 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301316 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-14 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-146 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002327 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-7 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301317 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-15 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-147 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002328 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-8 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301318 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-16 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-148 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-1324002329 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-9 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-0301319 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-17 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-149 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-13240023210 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-10 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-03013110 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-18 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 61px 3px 61px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-1410 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-alunos .matricula-13240023211 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .nome-fulaninho-da-silva-junqueira-11 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .turma-fes-03013111 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .group-19 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 0 69px 46px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .carbonresult {
+  width: 52px;
+  height: 52px;
+}
+.admin-alunos .container-4 {
+  background: #D9D9D9;
+  position: relative;
+  margin: 29px 14px 0 0;
+  display: flex;
+  padding: 7px 7px 7px 8px;
+  width: 67px;
+  height: 66px;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-16 {
+  width: 32.1px;
+  height: 32.1px;
+}
+.admin-alunos .icbaseline-plus {
+  display: flex;
+  width: 32.1px;
+  height: 32.1px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-7 {
+  background: #D9D9D9;
+  position: relative;
+  margin-top: 29px;
+  display: flex;
+  padding: 16.5px 17.5px 17.5px 17.5px;
+  width: 67px;
+  height: 66px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-11 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 1070px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-23 {
+  background: linear-gradient(170.1deg, rgba(255, 255, 255, 0) -23.2%, #FFFFFF 43.68%, #FFFFFF 93.5%);
+  position: absolute;
+  left: 0px;
+  bottom: 7px;
+  width: 853px;
+  height: 69px;
+}
+.admin-alunos .container-6 {
+  position: relative;
+  margin: 0 23px 17px 61px;
+  display: flex;
+  width: 1070px;
+  box-sizing: border-box;
+}
+.admin-alunos .rectangle-1 {
+  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
+  margin-left: 9px;
+  width: 1145px;
+  height: 52px;
+}
+.admin-alunos .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.admin-alunos .title-2 {
+  margin: 0 5.8px 10.5px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #004173, #007BD9);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.admin-alunos .group {
+  width: 39.9px;
+  height: 37.1px;
+}
+.admin-alunos .streamlineglobal-learning {
+  background: #90C3DB;
+  margin-top: 3.5px;
+  display: flex;
+  padding: 1.4px 1.6px;
+  width: 43px;
+  height: 40px;
+  box-sizing: border-box;
+}
+.admin-alunos .container-10 {
+  margin: 0 9px 9px 9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .discover {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item {
+  border-radius: 8px;
+  margin: 0 16px 7px 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.admin-alunos .home {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.admin-alunos .home-1 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-1 {
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-3 {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+}
+.admin-alunos .alunos {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-2 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .group-2 {
+  border-radius: 8px;
+  margin-bottom: 4px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-4 {
+  width: 26px;
+  height: 22px;
+}
+.admin-alunos .phchalkboard-teacher-light {
+  margin: 0 16px 2px 0;
+  display: flex;
+  width: 26px;
+  height: 22px;
+  box-sizing: border-box;
+}
+.admin-alunos .professores {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-3 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .list {
+  margin-bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .biblioteca {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .title-1 {
+  margin: 0 16px 8px 16px;
+  display: flex;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-5 {
+  width: 16px;
+  height: 20px;
+}
+.admin-alunos .icoutline-class {
+  margin: 2px 20px 2px 0;
+  display: flex;
+  width: 16px;
+  height: 20px;
+  box-sizing: border-box;
+}
+.admin-alunos .disciplinas {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-4 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 20px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-6 {
+  width: 22px;
+  height: 16px;
+}
+.admin-alunos .material-symbolsgroup-outline {
+  margin: 4px 17px 4px 0;
+  display: flex;
+  width: 22px;
+  height: 16px;
+  box-sizing: border-box;
+}
+.admin-alunos .turmas {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-5 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 17px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .group-3 {
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .vector-7 {
+  margin: 0.5px 16px 0.5px 0;
+  width: 24px;
+  height: 23px;
+}
+.admin-alunos .relatrios {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-alunos .menu-item-6 {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .group-4 {
+  border-radius: 8px;
+  display: flex;
+  width: 263px;
+  box-sizing: border-box;
+}
+.admin-alunos .list-1 {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.admin-alunos .sidebar {
+  border-right: 1px solid #90C3DB;
+  background: #90C3DB;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 16.5px 16px 0 15px;
+  height: 983px;
+  box-sizing: border-box;
+}
+.admin-alunos {
+  background: #FFFFFF;
+  display: flex;
+  width: 1440px;
+  box-sizing: border-box;
+}
