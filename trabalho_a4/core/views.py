@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return render(request,'core/index.html')
+    return render(request,'core/pages/login.html')
 
 def adminHome(request):
     return render(request,'core/admin.html')
