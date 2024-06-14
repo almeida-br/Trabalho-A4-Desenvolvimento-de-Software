@@ -52,7 +52,7 @@
   line-height: 1.5;
   color: rgba(99, 99, 99, 0.54);
 }
-.login .container-1 {
+.login .container-1, .login .container-1 input {
   border-radius: 10px;
   background: #F6F6F6;
   position: relative;

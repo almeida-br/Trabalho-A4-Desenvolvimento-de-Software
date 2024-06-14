@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="admin_home.css" />
+    <link rel="stylesheet" href="{% static 'css/admin_home.css' %}" />
   </head>
   <body>
     <div class="admin-home">
@@ -33,6 +34,7 @@
           <div class="menu-item-1">
             <img class="home" src="../assets/vectors/home_4_x2.svg" />
             <span class="home-1">
+              <a href="">Home</a>
             Home
             </span>
           </div>
@@ -40,6 +42,7 @@
             <div class="menu-item-2">
               <img class="vector-5" src="../assets/vectors/vector_72_x2.svg" />
               <span class="alunos">
+                <a href="alunos/">Alunos</a>
               Alunos
               </span>
             </div>
@@ -49,6 +52,7 @@
               <img class="vector-6" src="../assets/vectors/vector_36_x2.svg" />
             </div>
             <span class="professores">
+              <a href="professores/">Professores</a>
             Professores
             </span>
           </div>
@@ -64,6 +68,7 @@
               <img class="vector-7" src="../assets/vectors/vector_98_x2.svg" />
             </div>
             <span class="disciplinas">
+              <a href="/disciplinas/">Disciplinas</a>
             Disciplinas
             </span>
           </div>
@@ -73,6 +78,7 @@
                 <img class="vector-8" src="../assets/vectors/vector_53_x2.svg" />
               </div>
               <span class="turmas">
+                <a href="/turmas/">Turmas</a>
               Turmas
               </span>
             </div>
@@ -81,6 +87,7 @@
             <div class="menu-item-6">
               <img class="vector-9" src="../assets/vectors/vector_2_x2.svg" />
               <span class="relatrios">
+                <a href="/relatorios/">Relatórios</a>
               Relatórios
               </span>
             </div>
