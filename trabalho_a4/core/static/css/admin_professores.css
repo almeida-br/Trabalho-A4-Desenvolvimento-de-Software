@@ -1,15 +1,15 @@
-.admin-disciplinas .vector {
+.admin-professores .vector {
   width: 41.3px;
   height: 44.7px;
 }
-.admin-disciplinas .bytesizeoptions {
+.admin-professores .bytesizeoptions {
   margin-bottom: 8.2px;
   display: flex;
   width: 41.3px;
   height: 44.7px;
   box-sizing: border-box;
 }
-.admin-disciplinas .portal-do-admin {
+.admin-professores .portal-do-admin {
   overflow-wrap: break-word;
   font-family: 'Inter';
   font-weight: 600;
@@ -18,12 +18,12 @@
   line-height: 1.1;
   color: #E5E5E5;
 }
-.admin-disciplinas .title {
+.admin-professores .title {
   margin-top: 2.8px;
   display: flex;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-2 {
+.admin-professores .container {
   background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
   position: relative;
   margin-bottom: 18px;
@@ -34,8 +34,8 @@
   width: 1154px;
   box-sizing: border-box;
 }
-.admin-disciplinas .disciplinas-1 {
-  margin: 0 67.6px 16px 67.6px;
+.admin-professores .professores-1 {
+  margin: 0 64.3px 16px 64.3px;
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -45,7 +45,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .buscar {
+.admin-professores .buscar {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -53,7 +53,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .container-6 {
+.admin-professores .container-7 {
   border-radius: 20px;
   background: #D9D9D9;
   position: relative;
@@ -62,7 +62,7 @@
   width: 327px;
   box-sizing: border-box;
 }
-.admin-disciplinas .turma {
+.admin-professores .turma {
   margin-right: 15px;
   width: 157.1px;
   overflow-wrap: break-word;
@@ -72,18 +72,18 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .vector-11 {
+.admin-professores .vector-11 {
   width: 17.8px;
   height: 10.2px;
 }
-.admin-disciplinas .group-1 {
+.admin-professores .group-1 {
   margin: 11.1px 0 8.7px 0;
   display: flex;
   width: 17.8px;
   height: 10.2px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-19 {
+.admin-professores .container-8 {
   background: #D9D9D9;
   position: relative;
   margin-right: 11px;
@@ -94,9 +94,8 @@
   width: 213px;
   box-sizing: border-box;
 }
-.admin-disciplinas .carga-horria {
-  margin-right: 15px;
-  width: 160px;
+.admin-professores .data-de-contratao {
+  margin-right: 5.2px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -104,31 +103,29 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .vector-37 {
-  width: 17.8px;
-  height: 10.2px;
+.admin-professores .vector-13 {
+  width: 22.5px;
+  height: 25px;
 }
-.admin-disciplinas .group-4 {
-  margin: 11.1px 0 8.7px 0;
+.admin-professores .mdicalendar-outline {
+  margin: 2.3px 0 2.8px 0;
   display: flex;
-  width: 17.8px;
-  height: 10.2px;
+  width: 22.5px;
+  height: 25px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-10 {
+.admin-professores .container-2 {
   background: #D9D9D9;
   position: relative;
   margin-right: 13px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 5px 17.1px 5px 9.1px;
-  width: 219px;
+  padding: 5px 10.8px 5px 8.4px;
   box-sizing: border-box;
 }
-.admin-disciplinas .turno {
+.admin-professores .disciplina {
   margin-right: 15px;
-  width: 151px;
+  width: 158.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -136,37 +133,37 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .vector-12 {
+.admin-professores .vector-12 {
   width: 17.8px;
   height: 10.2px;
 }
-.admin-disciplinas .group-2 {
+.admin-professores .group-2 {
   margin: 11.1px 0 8.7px 0;
   display: flex;
   width: 17.8px;
   height: 10.2px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-5 {
+.admin-professores .container-15 {
   background: #D9D9D9;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5px 15.1px 5px 14.1px;
+  padding: 5px 15.1px 5px 6.2px;
   width: 213px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-18 {
+.admin-professores .container-13 {
   margin: 0 86px 7px 61px;
   display: flex;
   flex-direction: row;
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-disciplinas .professor {
+.admin-professores .formao {
   margin-right: 15px;
-  width: 154.9px;
+  width: 157.1px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -174,414 +171,324 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .vector-13 {
+.admin-professores .vector-37 {
   width: 17.8px;
   height: 10.2px;
 }
-.admin-disciplinas .group-3 {
+.admin-professores .group-3 {
   margin: 11.1px 0 8.7px 0;
   display: flex;
   width: 17.8px;
   height: 10.2px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-17 {
+.admin-professores .container-6 {
   background: #D9D9D9;
   position: relative;
-  margin: 0 143px 38px 0;
+  margin: 0 143px 18px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-self: center;
-  padding: 5px 15.1px 5px 10.2px;
+  padding: 5px 15.1px 5px 8px;
   width: 213px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-13 {
+.admin-professores .matricula-234510909 {
+  margin-right: 15px;
+  width: 226px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .nome-ciclaninho-pereira-gomes {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .escolaridade-mestrado {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-8 {
   background: #D9D9D9;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 853px;
-  height: 49px;
-}
-.admin-disciplinas .turma-fes-030131 {
-  margin: 0 15px 1px 0;
-  display: inline-block;
-  width: 179.8px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-desenvolvimento-web {
-  margin-top: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-manh {
-  margin-top: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p {
-  margin-bottom: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-7 {
-  background: #D9D9D9;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 9px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
-}
-.admin-disciplinas .group-41 {
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 36.1px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-131 {
+.admin-professores .rectangle-14 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301311 {
-  margin: 0 15px 1px 0;
-  display: inline-block;
-  width: 182.8px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-desenvolvimento-web-1 {
-  margin-bottom: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-tarde {
-  margin-bottom: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-1 {
-  margin-top: 1px;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-21 {
-  background: #D9D9D9;
+.admin-professores .matricula-2345109091 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 8px 17.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  margin-right: 15px;
+  width: 213.8px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-42 {
+.admin-professores .nome-fulaninho-da-silva-junqueira {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-030131 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-9 {
+  background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-132 {
+.admin-professores .rectangle-141 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301312 {
-  margin-right: 15px;
-  width: 182.8px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-desenvolvimento-web-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-noturno {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container {
-  background: #D9D9D9;
+.admin-professores .matricula-132400232 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 17.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-43 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301311 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-10 {
+  background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-133 {
+.admin-professores .rectangle-142 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301313 {
-  margin-right: 15px;
-  width: 179.8px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-desenvolvimento-web-3 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-manh-1 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-3 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-3 {
-  background: #D9D9D9;
+.admin-professores .matricula-1324002321 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-44 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-2 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301312 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-11 {
+  background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-134 {
+.admin-professores .rectangle-143 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301314 {
-  margin-right: 15px;
-  width: 179.8px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-desenvolvimento-web-4 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-tarde-1 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-4 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-23 {
-  background: #D9D9D9;
+.admin-professores .matricula-1324002322 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-45 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-3 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301313 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-12 {
+  background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-135 {
+.admin-professores .rectangle-144 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301315 {
-  margin-right: 15px;
-  width: 215.9px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-jogos-digitais {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-noturno-1 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-5 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-12 {
-  background: #D9D9D9;
+.admin-professores .matricula-1324002323 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-46 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-4 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301314 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-13 {
+  background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-136 {
+.admin-professores .rectangle-145 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301316 {
+.admin-professores .matricula-1324002324 {
+  position: relative;
   margin-right: 15px;
-  width: 215.9px;
+  width: 213.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -589,179 +496,48 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .disciplina-jogos-digitais-1 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-manh-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-6 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-9 {
-  background: #D9D9D9;
+.admin-professores .nome-fulaninho-da-silva-junqueira-5 {
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .group-47 {
+.admin-professores .turma-fes-0301315 {
   position: relative;
-  margin-bottom: 2px;
-  display: flex;
-  width: 955px;
-  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-disciplinas .rectangle-137 {
+.admin-professores .group-14 {
   background: #D9D9D9;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 853px;
-  height: 49px;
-}
-.admin-disciplinas .turma-fes-0301317 {
-  margin-right: 15px;
-  width: 215.9px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-jogos-digitais-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-tarde-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-7 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-15 {
-  background: #D9D9D9;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
-}
-.admin-disciplinas .group-48 {
-  position: relative;
-  margin-bottom: 4px;
-  display: flex;
-  width: 955px;
-  box-sizing: border-box;
-}
-.admin-disciplinas .rectangle-138 {
-  background: #D9D9D9;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 853px;
-  height: 49px;
-}
-.admin-disciplinas .turma-fes-0301318 {
-  margin-right: 15px;
-  width: 215.9px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .disciplina-jogos-digitais-3 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .turno-noturno-2 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .professor-ciclaninho-p-8 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-disciplinas .container-13 {
-  background: #D9D9D9;
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
-  box-sizing: border-box;
-}
-.admin-disciplinas .group-49 {
   position: relative;
   margin-bottom: 3px;
   display: flex;
-  width: 955px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-139 {
+.admin-professores .rectangle-146 {
   background: #D9D9D9;
   position: absolute;
-  left: 0px;
-  bottom: 0px;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
   height: 49px;
 }
-.admin-disciplinas .turma-fes-0301319 {
+.admin-professores .matricula-1324002325 {
+  position: relative;
   margin-right: 15px;
-  width: 215.9px;
+  width: 213.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -769,7 +545,8 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .disciplina-jogos-digitais-4 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-6 {
+  position: relative;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -777,7 +554,8 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .turno-manh-3 {
+.admin-professores .turma-fes-0301316 {
+  position: relative;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -785,7 +563,30 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .professor-ciclaninho-p-9 {
+.admin-professores .group-15 {
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-professores .rectangle-147 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-professores .matricula-1324002326 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -793,36 +594,96 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .container-20 {
+.admin-professores .nome-fulaninho-da-silva-junqueira-7 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301317 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-16 {
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-professores .rectangle-148 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-professores .matricula-1324002327 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .nome-fulaninho-da-silva-junqueira-8 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301318 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-17 {
   background: #D9D9D9;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 10px 33px 9px 20.4px;
-  width: 955px;
-  height: fit-content;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-50 {
-  position: relative;
-  display: flex;
-  width: 955px;
-  box-sizing: border-box;
-}
-.admin-disciplinas .container-1 {
-  margin-right: 5px;
+.admin-professores .container-1 {
+  margin-right: 6px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 955px;
+  width: 853px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-29 {
+.admin-professores .group-29 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-30 {
+.admin-professores .group-30 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -832,11 +693,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-291 {
+.admin-professores .group-291 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-31 {
+.admin-professores .group-31 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -846,11 +707,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-292 {
+.admin-professores .group-292 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-32 {
+.admin-professores .group-32 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -860,11 +721,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-293 {
+.admin-professores .group-293 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-33 {
+.admin-professores .group-33 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -874,11 +735,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-294 {
+.admin-professores .group-294 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-34 {
+.admin-professores .group-34 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -888,11 +749,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-295 {
+.admin-professores .group-295 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-35 {
+.admin-professores .group-35 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -902,11 +763,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-296 {
+.admin-professores .group-296 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-36 {
+.admin-professores .group-36 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -916,11 +777,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-297 {
+.admin-professores .group-297 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-37 {
+.admin-professores .group-37 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -930,11 +791,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-298 {
+.admin-professores .group-298 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-38 {
+.admin-professores .group-38 {
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
@@ -944,11 +805,11 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-299 {
+.admin-professores .group-299 {
   width: 26px;
   height: 25.8px;
 }
-.admin-disciplinas .group-39 {
+.admin-professores .group-39 {
   background: #D9D9D9;
   position: relative;
   display: flex;
@@ -957,80 +818,233 @@
   height: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-40 {
+.admin-professores .group-40 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 49px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-4 {
-  margin: 0 84px 54px 61px;
+.admin-professores .container-3 {
+  margin: 0 61px 3px 61px;
   display: flex;
   flex-direction: row;
-  width: 1009px;
+  align-self: flex-start;
+  width: 908px;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-23 {
-  background: linear-gradient(170.1deg, rgba(255, 255, 255, 0) -23.2%, #FFFFFF 43.68%, #FFFFFF 93.5%);
-  margin-right: 69px;
+.admin-professores .rectangle-149 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
   width: 853px;
-  height: 69px;
+  height: 49px;
 }
-.admin-disciplinas .carbonresult {
+.admin-professores .matricula-1324002328 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .nome-fulaninho-da-silva-junqueira-9 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-0301319 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-18 {
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-professores .rectangle-1410 {
+  background: #D9D9D9;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 853px;
+  height: 49px;
+}
+.admin-professores .matricula-1324002329 {
+  position: relative;
+  margin-right: 15px;
+  width: 213.9px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .nome-fulaninho-da-silva-junqueira-10 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .turma-fes-03013110 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.admin-professores .group-19 {
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 59.4px 9px 20.2px;
+  width: 853px;
+  box-sizing: border-box;
+}
+.admin-professores .container-12 {
+  margin: 0 6px 39px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 853px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.admin-professores .group-2910 {
+  width: 26px;
+  height: 25.8px;
+}
+.admin-professores .group-301 {
+  background: #D9D9D9;
+  position: relative;
+  margin-bottom: 3px;
+  display: flex;
+  padding: 12px 11px 11.2px 12px;
+  width: 49px;
+  height: 49px;
+  box-sizing: border-box;
+}
+.admin-professores .group-2911 {
+  width: 26px;
+  height: 25.8px;
+}
+.admin-professores .group-311 {
+  background: #D9D9D9;
+  position: relative;
+  display: flex;
+  padding: 12px 11px 11.2px 12px;
+  width: 49px;
+  height: 49px;
+  box-sizing: border-box;
+}
+.admin-professores .group-41 {
+  margin: 0 14px 39px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 49px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.admin-professores .carbonresult {
   width: 52px;
   height: 52px;
 }
-.admin-disciplinas .container-22 {
+.admin-professores .container-10 {
   background: #D9D9D9;
   position: relative;
-  margin: 3px 14px 0 0;
+  margin: 74px 14px 0 0;
   display: flex;
   padding: 7px 7px 7px 8px;
   width: 67px;
   height: 66px;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-16 {
+.admin-professores .vector-16 {
   width: 32.1px;
   height: 32.1px;
 }
-.admin-disciplinas .icbaseline-plus {
+.admin-professores .icbaseline-plus {
   display: flex;
   width: 32.1px;
   height: 32.1px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-8 {
+.admin-professores .container-4 {
   background: #D9D9D9;
   position: relative;
-  margin-top: 3px;
+  margin-top: 74px;
   display: flex;
   padding: 16.5px 17.5px 17.5px 17.5px;
   width: 67px;
   height: 66px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-14 {
-  margin: 0 23px 17px 61px;
+.admin-professores .container-5 {
+  position: relative;
   display: flex;
   flex-direction: row;
   width: 1070px;
+  height: fit-content;
   box-sizing: border-box;
 }
-.admin-disciplinas .rectangle-1 {
+.admin-professores .rectangle-23 {
+  background: linear-gradient(170.1deg, rgba(255, 255, 255, 0) -23.2%, #FFFFFF 43.68%, #FFFFFF 93.5%);
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 908px;
+  height: 69px;
+}
+.admin-professores .container-9 {
+  position: relative;
+  margin: 0 23px 17px 61px;
+  display: flex;
+  width: 1070px;
+  box-sizing: border-box;
+}
+.admin-professores .rectangle-1 {
   background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
   margin-left: 9px;
   width: 1145px;
   height: 52px;
 }
-.admin-disciplinas .container-11 {
+.admin-professores .container-14 {
   position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
-.admin-disciplinas .title-2 {
+.admin-professores .title-2 {
   margin: 0 5.8px 10.5px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -1044,11 +1058,11 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.admin-disciplinas .group {
+.admin-professores .group {
   width: 39.9px;
   height: 37.1px;
 }
-.admin-disciplinas .streamlineglobal-learning {
+.admin-professores .streamlineglobal-learning {
   background: #90C3DB;
   margin-top: 3.5px;
   display: flex;
@@ -1057,7 +1071,7 @@
   height: 40px;
   box-sizing: border-box;
 }
-.admin-disciplinas .container-16 {
+.admin-professores .container-11 {
   margin: 0 9px 9px 9px;
   display: flex;
   flex-direction: row;
@@ -1065,7 +1079,7 @@
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-disciplinas .discover {
+.admin-professores .discover {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -1073,19 +1087,19 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item {
+.admin-professores .menu-item {
   border-radius: 8px;
   margin: 0 16px 7px 16px;
   display: flex;
   align-self: flex-start;
   box-sizing: border-box;
 }
-.admin-disciplinas .home {
+.admin-professores .home {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.admin-disciplinas .home-1 {
+.admin-professores .home-1 {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1093,7 +1107,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-1 {
+.admin-professores .menu-item-1 {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
   margin-bottom: 4px;
@@ -1103,12 +1117,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-3 {
+.admin-professores .vector-3 {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.admin-disciplinas .alunos {
+.admin-professores .alunos {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1116,7 +1130,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-2 {
+.admin-professores .menu-item-2 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -1125,25 +1139,25 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-2 {
+.admin-professores .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-4 {
+.admin-professores .vector-4 {
   width: 26px;
   height: 22px;
 }
-.admin-disciplinas .phchalkboard-teacher-light {
+.admin-professores .phchalkboard-teacher-light {
   margin: 0 16px 2px 0;
   display: flex;
   width: 26px;
   height: 22px;
   box-sizing: border-box;
 }
-.admin-disciplinas .professores {
+.admin-professores .professores {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1151,7 +1165,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-3 {
+.admin-professores .menu-item-3 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -1160,14 +1174,14 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .list {
+.admin-professores .list {
   margin-bottom: 46px;
   display: flex;
   flex-direction: column;
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-disciplinas .biblioteca {
+.admin-professores .biblioteca {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -1175,24 +1189,24 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .title-1 {
+.admin-professores .title-1 {
   margin: 0 16px 8px 16px;
   display: flex;
   align-self: flex-start;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-5 {
+.admin-professores .vector-5 {
   width: 16px;
   height: 20px;
 }
-.admin-disciplinas .icoutline-class {
+.admin-professores .icoutline-class {
   margin: 2px 20px 2px 0;
   display: flex;
   width: 16px;
   height: 20px;
   box-sizing: border-box;
 }
-.admin-disciplinas .disciplinas {
+.admin-professores .disciplinas {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1200,7 +1214,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-4 {
+.admin-professores .menu-item-4 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 8px;
@@ -1210,18 +1224,18 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-6 {
+.admin-professores .vector-6 {
   width: 22px;
   height: 16px;
 }
-.admin-disciplinas .material-symbolsgroup-outline {
+.admin-professores .material-symbolsgroup-outline {
   margin: 4px 17px 4px 0;
   display: flex;
   width: 22px;
   height: 16px;
   box-sizing: border-box;
 }
-.admin-disciplinas .turmas {
+.admin-professores .turmas {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1229,7 +1243,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-5 {
+.admin-professores .menu-item-5 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -1238,19 +1252,19 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-3 {
+.admin-professores .group-3 {
   border-radius: 8px;
   margin-bottom: 8px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .vector-7 {
+.admin-professores .vector-7 {
   margin: 0.5px 16px 0.5px 0;
   width: 24px;
   height: 23px;
 }
-.admin-disciplinas .relatrios {
+.admin-professores .relatorios {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -1258,7 +1272,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-disciplinas .menu-item-6 {
+.admin-professores .menu-item-6 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -1267,19 +1281,19 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .group-4 {
+.admin-professores .group-4 {
   border-radius: 8px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.admin-disciplinas .list-1 {
+.admin-professores .list-1 {
   display: flex;
   flex-direction: column;
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-disciplinas .sidebar {
+.admin-professores .sidebar {
   border-right: 1px solid #90C3DB;
   background: #90C3DB;
   position: absolute;
@@ -1291,7 +1305,7 @@
   height: 983px;
   box-sizing: border-box;
 }
-.admin-disciplinas {
+.admin-professores {
   background: #FFFFFF;
   display: flex;
   width: 1440px;

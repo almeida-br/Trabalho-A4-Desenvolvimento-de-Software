@@ -1,5 +1,5 @@
-.professor-solicitaes .title {
-  margin-right: 12px;
+.aluno-solicitacoes .title {
+  margin-right: 21px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -11,62 +11,62 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.professor-solicitaes .group-1 {
+.aluno-solicitacoes .group-3 {
   width: 54.7px;
   height: 47.4px;
 }
-.professor-solicitaes .streamlineglobal-learning {
+.aluno-solicitacoes .streamlineglobal-learning {
   margin: 8.3px 0 19.3px 0;
   display: flex;
   width: 54.7px;
   height: 47.4px;
   box-sizing: border-box;
 }
-.professor-solicitaes .container-3 {
+.aluno-solicitacoes .container-4 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.professor-solicitaes .group-2 {
+.aluno-solicitacoes .group-2 {
   width: 35.8px;
   height: 32.5px;
 }
-.professor-solicitaes .icon-park-outlinelocal {
+.aluno-solicitacoes .icon-park-outlinelocal {
   margin: 3.3px 22.6px 4.2px 0;
   display: flex;
   width: 35.8px;
   height: 32.5px;
   box-sizing: border-box;
 }
-.professor-solicitaes .solaruser-bold {
+.aluno-solicitacoes .solaruser-bold {
   margin-right: 19px;
   width: 41px;
   height: 40px;
 }
-.professor-solicitaes .vector-13 {
+.aluno-solicitacoes .vector-12 {
   width: 35px;
   height: 33.7px;
 }
-.professor-solicitaes .icon-headset-icon {
+.aluno-solicitacoes .icon-headset-icon {
   margin: 3px 0 3.3px 0;
   display: flex;
   width: 35px;
   height: 33.7px;
   box-sizing: border-box;
 }
-.professor-solicitaes .container-10 {
+.aluno-solicitacoes .container-1 {
   margin: 0 0px 6px 0px;
   display: flex;
   flex-direction: row;
   width: 153.4px;
   box-sizing: border-box;
 }
-.professor-solicitaes .vector-1 {
+.aluno-solicitacoes .vector-1 {
   background: #F5F5F5;
   width: 771px;
   height: 2px;
 }
-.professor-solicitaes .container-14 {
+.aluno-solicitacoes .container-5 {
   margin: 7.5px 0 19.5px 0;
   display: flex;
   flex-direction: column;
@@ -75,17 +75,17 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.professor-solicitaes .container-16 {
+.aluno-solicitacoes .container-12 {
   background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 6.5px 43px 3.5px 31px;
+  padding: 2.5px 43px 7.5px 31px;
   width: 1440px;
   box-sizing: border-box;
 }
-.professor-solicitaes .discover {
+.aluno-solicitacoes .discover {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -93,18 +93,18 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .menu-item {
+.aluno-solicitacoes .menu-item {
   border-radius: 8px;
   margin: 0 171.1px 12px 0;
   display: flex;
   box-sizing: border-box;
 }
-.professor-solicitaes .home {
+.aluno-solicitacoes .home {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.professor-solicitaes .home-1 {
+.aluno-solicitacoes .home-1 {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -112,7 +112,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .menu-item-1 {
+.aluno-solicitacoes .menu-item-1 {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
   margin-bottom: 4px;
@@ -122,12 +122,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .vector-4 {
+.aluno-solicitacoes .vector-6 {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.professor-solicitaes .turmas {
+.aluno-solicitacoes .quadro-de-horrios {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -135,7 +135,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .menu-item-2 {
+.aluno-solicitacoes .menu-item-2 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -144,19 +144,19 @@
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .group-2 {
+.aluno-solicitacoes .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .vector-5 {
+.aluno-solicitacoes .vector-7 {
   margin: 0.5px 20px 0.5px 0;
   width: 19px;
   height: 23px;
 }
-.professor-solicitaes .disciplinas {
+.aluno-solicitacoes .disciplinas {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -164,7 +164,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .menu-item-3 {
+.aluno-solicitacoes .menu-item-3 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 4px;
@@ -174,12 +174,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .group {
+.aluno-solicitacoes .group-1 {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.professor-solicitaes .solicitaes {
+.aluno-solicitacoes .solicitaes {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -187,7 +187,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .menu-item-4 {
+.aluno-solicitacoes .menu-item-4 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -196,24 +196,24 @@
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .group-5 {
+.aluno-solicitacoes .group-5 {
   border-radius: 8px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.professor-solicitaes .sidebar {
+.aluno-solicitacoes .sidebar {
   border-right: 1px solid #E0E0E0;
   background: #90C3DB;
-  margin-bottom: 24px;
+  margin-right: 56px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 74px 16px 620px 15px;
+  padding: 74px 16px 616px 15px;
   box-sizing: border-box;
 }
-.professor-solicitaes .solicitao {
-  margin: 0 42.4px 18px 42.4px;
+.aluno-solicitacoes .solicitao {
+  margin: 0 0.4px 33px 0.4px;
   display: inline-block;
   align-self: flex-start;
   overflow-wrap: break-word;
@@ -223,7 +223,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .buscar {
+.aluno-solicitacoes .buscar {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -231,7 +231,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .container-5 {
+.aluno-solicitacoes .container-15 {
   border-radius: 20px;
   background: #94DFFF;
   position: relative;
@@ -240,7 +240,7 @@
   width: 272px;
   box-sizing: border-box;
 }
-.professor-solicitaes .nova-solicitao {
+.aluno-solicitacoes .nova-solicitao {
   margin: 0 16.3px 1px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -250,12 +250,12 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .rectangle-20 {
+.aluno-solicitacoes .rectangle-20 {
   background: url('../assets/images/rectangle_20.png') 50% / cover no-repeat;
   width: 31px;
   height: 31px;
 }
-.professor-solicitaes .group-55 {
+.aluno-solicitacoes .group-55 {
   background: #94DFFF;
   position: relative;
   margin: 1px 25px 0 0;
@@ -264,7 +264,7 @@
   padding: 4px 17px 5px 9.3px;
   box-sizing: border-box;
 }
-.professor-solicitaes .data-de-solicitao {
+.aluno-solicitacoes .data-de-solicitao {
   margin-right: 20.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -273,27 +273,245 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .vector-17 {
+.aluno-solicitacoes .vector {
   width: 22.5px;
   height: 25px;
 }
-.professor-solicitaes .mdicalendar-outline {
+.aluno-solicitacoes .mdicalendar-outline {
   margin: 3.3px 0 1.8px 0;
   display: flex;
   width: 22.5px;
   height: 25px;
   box-sizing: border-box;
 }
-.professor-solicitaes .group-54 {
+.aluno-solicitacoes .group-54 {
   background: #94DFFF;
   position: relative;
-  margin: 0 26px 1px 0;
+  margin-bottom: 1px;
   display: flex;
   flex-direction: row;
   padding: 4px 14.8px 6px 8.2px;
   box-sizing: border-box;
 }
-.professor-solicitaes .histrico-solicitao {
+.aluno-solicitacoes .container-17 {
+  margin: 6px 0 5px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container-9 {
+  margin: 0 0 50px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 798px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .rectangle-39 {
+  background: #E5E5E5;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 687px;
+  height: 140px;
+}
+.aluno-solicitacoes .vector-2 {
+  margin: 5px 17.3px 1px 0;
+  width: 54px;
+  height: 54px;
+}
+.aluno-solicitacoes .nmero-68988 {
+  margin: 0 17.1px 0 0.1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .data-24052024 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .container-16 {
+  margin-right: 20.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .solicitao-histrico-escolar {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .prazo-2-dias {
+  margin: 0 3.9px;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .container-13 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container-11 {
+  margin: 0 21px 3px 21px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .status-em-andamento {
+  align-self: flex-start;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  color: #000000;
+}
+.aluno-solicitacoes .container-3 {
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 0 14px 13px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .group-51 {
+  position: relative;
+  margin-bottom: 3px;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .rectangle-391 {
+  background: #E5E5E5;
+  position: absolute;
+  left: 50%;
+  top: 0px;
+  translate: -50% 0;
+  width: 687px;
+  height: 140px;
+}
+.aluno-solicitacoes .vector-3 {
+  margin: 6px 17.3px 0 0;
+  width: 54px;
+  height: 54px;
+}
+.aluno-solicitacoes .nmero-12478 {
+  margin: 0 17.1px 0 0.1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .data-05042024 {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .container-6 {
+  margin-right: 19.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .solicitao-correo-de-nota {
+  margin-left: 5px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .prazo-10-dias {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.aluno-solicitacoes .container-8 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container-14 {
+  margin: 0 14.6px 13px 14.6px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .status-concludo {
+  align-self: flex-start;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1;
+  color: #000000;
+}
+.aluno-solicitacoes .container-10 {
+  background: #E0E0E0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3px 0 24px 19.4px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .group-52 {
+  position: relative;
+  padding-top: 7px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container {
+  background: #F8F8F8 content-box, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(#000000, #000000) border-box;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding: 3px 0 299px 0;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container-2 {
+  margin: 20px 26px 106px 0;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .histrico-solicitao {
   margin-right: 8.5px;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -302,257 +520,34 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-solicitaes .vector-18 {
+.aluno-solicitacoes .vector-1 {
   width: 17.8px;
   height: 10.2px;
 }
-.professor-solicitaes .group-3 {
+.aluno-solicitacoes .group {
   margin: 11.1px 0 8.7px 0;
   display: flex;
   width: 17.8px;
   height: 10.2px;
   box-sizing: border-box;
 }
-.professor-solicitaes .group-53 {
+.aluno-solicitacoes .group-53 {
   background: #94DFFF;
   position: relative;
-  margin-top: 1px;
+  margin: 98px 0 760px 0;
   display: flex;
   flex-direction: row;
   padding: 4px 11.1px 6px 9.4px;
   box-sizing: border-box;
 }
-.professor-solicitaes .container {
-  margin: 6px 0 5px 0;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
-.professor-solicitaes .container-4 {
-  margin: 0 57px 43px 44px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 1044px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .rectangle-39 {
-  background: #E5E5E5;
-  position: absolute;
-  left: 50%;
-  top: 0px;
-  translate: -50% 0;
-  width: 687px;
-  height: 140px;
-}
-.professor-solicitaes .vector {
-  margin: 5px 17.3px 1px 0;
-  width: 54px;
-  height: 54px;
-}
-.professor-solicitaes .nmero-22540 {
-  margin: 0 17.1px 0 0.1px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .data-25042024 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .container-8 {
-  margin-right: 24.4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-}
-.professor-solicitaes .solicitao-relatrio-de-turma {
-  margin-left: 0px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .prazo-5-dias {
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .container-17 {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.professor-solicitaes .container-15 {
-  margin: 0 21px 3px 21px;
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.professor-solicitaes .status-em-andamento {
-  align-self: flex-start;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1;
-  color: #000000;
-}
-.professor-solicitaes .container-11 {
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 3px 0 14px 13px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .group-51 {
-  position: relative;
-  margin-bottom: 3px;
-  padding-top: 7px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .rectangle-391 {
-  background: #E5E5E5;
-  position: absolute;
-  left: 50%;
-  top: 0px;
-  translate: -50% 0;
-  width: 687px;
-  height: 140px;
-}
-.professor-solicitaes .vector-1 {
-  margin: 6px 17.4px 0 0;
-  width: 54px;
-  height: 54px;
-}
-.professor-solicitaes .nmero-54217 {
-  margin: 0 17.1px 0 0.1px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .data-30052024 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .container-1 {
-  margin-right: 24.5px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
-}
-.professor-solicitaes .solicitao-redefinio-de-senha {
-  margin-left: 0.1px;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .prazo-1-dias {
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #000000;
-}
-.professor-solicitaes .container-12 {
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-}
-.professor-solicitaes .container-7 {
-  margin: 0 14.6px 13px 14.6px;
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.professor-solicitaes .status-concludo {
-  align-self: flex-start;
-  text-align: center;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 1;
-  color: #000000;
-}
-.professor-solicitaes .container-2 {
-  background: #E0E0E0;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  padding: 3px 0 24px 19.4px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .group-52 {
-  position: relative;
-  padding-top: 7px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .container-6 {
-  background: #F8F8F8 content-box, linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(#000000, #000000) border-box;
-  border-top: 2px solid transparent;
-  border-bottom: 2px solid transparent;
-  position: relative;
-  margin: 0 42px 35px 42px;
-  display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  padding: 3px 0 299px 0;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.professor-solicitaes .rectangle-1 {
-  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
-  width: 1145px;
-  height: 131px;
-}
-.professor-solicitaes .container-13 {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  width: 1145px;
-  box-sizing: border-box;
-}
-.professor-solicitaes .container-9 {
+.aluno-solicitacoes .container-7 {
+  margin-right: 43px;
   display: flex;
   flex-direction: row;
   width: fit-content;
   box-sizing: border-box;
 }
-.professor-solicitaes {
+.aluno-solicitacoes {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;

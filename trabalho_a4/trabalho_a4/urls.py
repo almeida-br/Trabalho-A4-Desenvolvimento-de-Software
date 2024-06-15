@@ -19,11 +19,11 @@ from django.contrib import admin
 from django.urls import path,include
 from core.views import index
 from core import views
- 
+
 
 urlpatterns = [
     path("",index,name='index'),
-    path("aluno/",views.alunoHome),
-    path("professor/",views.professorHome),
-    path("admin/",admin.site.urls)
+    path("aluno/",include('core.aluno_url')),
+    path("professor/",include('core.professor_url')),
+    path("admin/",include('core.admin_url'))
 ]

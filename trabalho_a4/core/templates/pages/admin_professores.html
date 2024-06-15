@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="admin_professores.css" />
+    <link rel="stylesheet" href="{% static 'css/admin_professores.css' %}" />
   </head>
   <body>
     <div class="admin-professores">
@@ -331,7 +332,7 @@
           </div>
           <div class="menu-item-4">
             <div class="icoutline-class">
-              <img class="vector-5" src="../assets/vectors/vector_106_x2.svg" />
+              <img class="vector-5" src="..assets/images/disciplinas.png" />
             </div>
             <span class="disciplinas">
             Disciplinas
@@ -350,7 +351,7 @@
           <div class="group-4">
             <div class="menu-item-6">
               <img class="vector-7" src="../assets/vectors/vector_76_x2.svg" />
-              <span class="relatrios">
+              <span class="relatorios">
               Relatórios
               </span>
             </div>

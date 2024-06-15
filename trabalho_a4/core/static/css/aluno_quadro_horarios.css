@@ -1,4 +1,4 @@
-.aluno-quadro-de-horrios .title {
+.aluno-quadro-horarios .title {
   margin-right: 21px;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -11,62 +11,62 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.aluno-quadro-de-horrios .group-2 {
+.aluno-quadro-horarios .group-2 {
   width: 54.7px;
   height: 47.4px;
 }
-.aluno-quadro-de-horrios .streamlineglobal-learning {
+.aluno-quadro-horarios .streamlineglobal-learning {
   margin: 8.3px 0 19.3px 0;
   display: flex;
   width: 54.7px;
   height: 47.4px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-14 {
+.aluno-quadro-horarios .container-14 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .group-1 {
+.aluno-quadro-horarios .group-1 {
   width: 35.8px;
   height: 32.5px;
 }
-.aluno-quadro-de-horrios .icon-park-outlinelocal {
+.aluno-quadro-horarios .icon-park-outlinelocal {
   margin: 3.3px 22.6px 4.2px 0;
   display: flex;
   width: 35.8px;
   height: 32.5px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .solaruser-bold {
+.aluno-quadro-horarios .solaruser-bold {
   margin-right: 19px;
   width: 41px;
   height: 40px;
 }
-.aluno-quadro-de-horrios .vector-5 {
+.aluno-quadro-horarios .vector-5 {
   width: 35px;
   height: 33.7px;
 }
-.aluno-quadro-de-horrios .icon-headset-icon {
+.aluno-quadro-horarios .icon-headset-icon {
   margin: 3px 0 3.3px 0;
   display: flex;
   width: 35px;
   height: 33.7px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-4 {
+.aluno-quadro-horarios .container-4 {
   margin: 0 0px 6px 0px;
   display: flex;
   flex-direction: row;
   width: 153.4px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-1 {
+.aluno-quadro-horarios .vector-1 {
   background: #F5F5F5;
   width: 771px;
   height: 2px;
 }
-.aluno-quadro-de-horrios .container-5 {
+.aluno-quadro-horarios .container-5 {
   margin: 7.5px 0 19.5px 0;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-1 {
+.aluno-quadro-horarios .container-1 {
   background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
   position: relative;
   display: flex;
@@ -85,7 +85,7 @@
   width: 1440px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .discover {
+.aluno-quadro-horarios .discover {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -93,18 +93,18 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .menu-item-2 {
+.aluno-quadro-horarios .menu-item-2 {
   border-radius: 8px;
   margin: 0 171.1px 12px 0;
   display: flex;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .home {
+.aluno-quadro-horarios .home {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.aluno-quadro-de-horrios .home-1 {
+.aluno-quadro-horarios .home-1 {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -112,7 +112,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .menu-item-3 {
+.aluno-quadro-horarios .menu-item-3 {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
   margin-bottom: 4px;
@@ -122,12 +122,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-14 {
+.aluno-quadro-horarios .vector-14 {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.aluno-quadro-de-horrios .quadro-de-horrios {
+.aluno-quadro-horarios .quadro-de-horrios {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -135,7 +135,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .menu-item-4 {
+.aluno-quadro-horarios .menu-item-4 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -144,19 +144,19 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .group-2 {
+.aluno-quadro-horarios .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector {
+.aluno-quadro-horarios .vector {
   margin: 0.5px 20px 0.5px 0;
   width: 19px;
   height: 23px;
 }
-.aluno-quadro-de-horrios .disciplinas {
+.aluno-quadro-horarios .disciplinas {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -164,7 +164,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .menu-item {
+.aluno-quadro-horarios .menu-item {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   margin-bottom: 4px;
@@ -174,12 +174,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .group {
+.aluno-quadro-horarios .group {
   margin-right: 16px;
   width: 24px;
   height: 24px;
 }
-.aluno-quadro-de-horrios .solicitaes {
+.aluno-quadro-horarios .solicitaes {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -187,7 +187,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .menu-item-1 {
+.aluno-quadro-horarios .menu-item-1 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
   display: flex;
@@ -196,13 +196,13 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .group-5 {
+.aluno-quadro-horarios .group-5 {
   border-radius: 8px;
   display: flex;
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .sidebar {
+.aluno-quadro-horarios .sidebar {
   border-right: 1px solid #E0E0E0;
   background: #90C3DB;
   margin-right: 30px;
@@ -212,7 +212,7 @@
   padding: 74px 16px 616px 15px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .quadro-de-horrios-1 {
+.aluno-quadro-horarios .quadro-de-horrios-1 {
   margin: 0 2px 13.5px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -222,7 +222,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .curso {
+.aluno-quadro-horarios .curso {
   margin: 10.5px 37.2px 10.5px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -232,13 +232,13 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .vector-2 {
+.aluno-quadro-horarios .vector-2 {
   background: #F5F5F5;
   margin-right: 27px;
   width: 2px;
   height: 59px;
 }
-.aluno-quadro-de-horrios .bacharelado-em-sistemas-de-informao {
+.aluno-quadro-horarios .bacharelado-em-sistemas-de-informao {
   margin: 10px 0 11px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -248,20 +248,20 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-26 {
+.aluno-quadro-horarios .container-26 {
   margin-top: 0px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-7 {
+.aluno-quadro-horarios .vector-7 {
   background: #F5F5F5;
   transform: rotate(-90deg);
   margin-right: 24.4px;
   width: 2px;
   height: 58px;
 }
-.aluno-quadro-de-horrios .semestre-5 {
+.aluno-quadro-horarios .semestre-5 {
   margin: 5px 0 15px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -271,13 +271,13 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-10 {
+.aluno-quadro-horarios .container-10 {
   margin-bottom: 1px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-8 {
+.aluno-quadro-horarios .container-8 {
   margin: 0 6.5px 0 10.6px;
   display: flex;
   flex-direction: row;
@@ -285,7 +285,7 @@
   width: 924.3px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .perodo {
+.aluno-quadro-horarios .perodo {
   margin: 6px 12.3px 14px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -295,7 +295,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container {
+.aluno-quadro-horarios .container {
   margin: 6px 40.6px 14px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -305,7 +305,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .vector-4 {
+.aluno-quadro-horarios .vector-4 {
   background: #F5F5F5;
   transform: rotate(-90deg);
   position: relative;
@@ -313,7 +313,7 @@
   width: 2px;
   height: 58px;
 }
-.aluno-quadro-de-horrios .turma-fes-030131 {
+.aluno-quadro-horarios .turma-fes-030131 {
   margin: 6px 24.7px 14px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -323,14 +323,14 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .vector-5 {
+.aluno-quadro-horarios .vector-5 {
   background: #F5F5F5;
   transform: rotate(-90deg);
   margin-right: 19.9px;
   width: 2px;
   height: 58px;
 }
-.aluno-quadro-de-horrios .turno-matutino {
+.aluno-quadro-horarios .turno-matutino {
   margin: 6px 30.9px 14px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -340,18 +340,18 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .vector-6 {
+.aluno-quadro-horarios .vector-6 {
   background: #F5F5F5;
   transform: rotate(-90deg);
   width: 2px;
   height: 58px;
 }
-.aluno-quadro-de-horrios .container-16 {
+.aluno-quadro-horarios .container-16 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .matrcula-123982198 {
+.aluno-quadro-horarios .matrcula-123982198 {
   margin: 6px 0 14px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -361,14 +361,14 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-21 {
+.aluno-quadro-horarios .container-21 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 941.5px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-9 {
+.aluno-quadro-horarios .container-9 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -377,7 +377,7 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-3 {
+.aluno-quadro-horarios .vector-3 {
   background: #F5F5F5;
   position: absolute;
   left: 0px;
@@ -386,14 +386,14 @@
   translate: 0 -50%;
   height: 2px;
 }
-.aluno-quadro-de-horrios .container-6 {
+.aluno-quadro-horarios .container-6 {
   background: #0979B0;
   position: relative;
   padding: 0 17.6px;
   width: 1088px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-23 {
+.aluno-quadro-horarios .container-23 {
   background: #90C3DB;
   position: relative;
   margin: 0 0 29px 2px;
@@ -404,7 +404,7 @@
   width: 1088px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .horrios {
+.aluno-quadro-horarios .horrios {
   margin-right: 19px;
   width: 123.6px;
   overflow-wrap: break-word;
@@ -414,7 +414,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .segunda {
+.aluno-quadro-horarios .segunda {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -422,7 +422,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .tera {
+.aluno-quadro-horarios .tera {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -430,7 +430,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .quarta {
+.aluno-quadro-horarios .quarta {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -438,7 +438,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .quinta {
+.aluno-quadro-horarios .quinta {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -446,7 +446,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .sexta {
+.aluno-quadro-horarios .sexta {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -454,7 +454,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .sbado {
+.aluno-quadro-horarios .sbado {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -462,7 +462,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-15 {
+.aluno-quadro-horarios .container-15 {
   background: #0979B0;
   position: relative;
   margin-bottom: 9px;
@@ -473,7 +473,7 @@
   width: 1090px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .estrutura-de-dados {
+.aluno-quadro-horarios .estrutura-de-dados {
   margin-right: 38px;
   width: 244.3px;
   text-align: center;
@@ -484,7 +484,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .jogos-digitais-4 {
+.aluno-quadro-horarios .jogos-digitais-4 {
   margin: 4px 19.1px 19px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -494,7 +494,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .anlise-orientada-aobjeto {
+.aluno-quadro-horarios .anlise-orientada-aobjeto {
   margin: 0 30.6px 1px 0;
   display: inline-block;
   text-align: center;
@@ -505,7 +505,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web-2 {
+.aluno-quadro-horarios .desenvolvimento-web-2 {
   margin-top: 1px;
   display: inline-block;
   text-align: center;
@@ -516,13 +516,13 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-19 {
+.aluno-quadro-horarios .container-19 {
   margin-top: 15px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-13 {
+.aluno-quadro-horarios .container-13 {
   margin: 0 0 43px 9.2px;
   display: flex;
   flex-direction: row;
@@ -530,7 +530,7 @@
   width: 771.9px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web {
+.aluno-quadro-horarios .desenvolvimento-web {
   margin-right: 30px;
   width: 273.5px;
   text-align: center;
@@ -541,7 +541,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .jogos-digitais-1 {
+.aluno-quadro-horarios .jogos-digitais-1 {
   margin: 11px 24.1px 11px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -551,7 +551,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .anlise-orientada-aobjeto-1 {
+.aluno-quadro-horarios .anlise-orientada-aobjeto-1 {
   margin-right: 30.6px;
   text-align: center;
   overflow-wrap: break-word;
@@ -561,7 +561,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web-3 {
+.aluno-quadro-horarios .desenvolvimento-web-3 {
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -570,12 +570,12 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-2 {
+.aluno-quadro-horarios .container-2 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-22 {
+.aluno-quadro-horarios .container-22 {
   margin: 0 13px 79px 0;
   display: flex;
   flex-direction: row;
@@ -583,7 +583,7 @@
   width: 798.1px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web-1 {
+.aluno-quadro-horarios .desenvolvimento-web-1 {
   margin: 11px 30px 0 0;
   display: inline-block;
   width: 279.5px;
@@ -595,7 +595,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .jogos-digitais-2 {
+.aluno-quadro-horarios .jogos-digitais-2 {
   margin: 14px 21.1px 11px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -605,7 +605,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .anlise-orientada-aobjeto-2 {
+.aluno-quadro-horarios .anlise-orientada-aobjeto-2 {
   margin: 3px 28.6px 0 0;
   display: inline-block;
   text-align: center;
@@ -616,7 +616,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web-4 {
+.aluno-quadro-horarios .desenvolvimento-web-4 {
   margin-bottom: 3px;
   display: inline-block;
   text-align: center;
@@ -627,13 +627,13 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-24 {
+.aluno-quadro-horarios .container-24 {
   margin-bottom: 8px;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-3 {
+.aluno-quadro-horarios .container-3 {
   margin: 0 12px 87px 0;
   display: flex;
   flex-direction: row;
@@ -641,7 +641,7 @@
   width: 799.1px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .jogos-digitais {
+.aluno-quadro-horarios .jogos-digitais {
   margin: 11px 19px 11px 0;
   display: inline-block;
   width: 283px;
@@ -652,7 +652,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .jogos-digitais-3 {
+.aluno-quadro-horarios .jogos-digitais-3 {
   margin: 11px 21.1px 11px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -662,7 +662,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .anlise-orientada-aobjeto-3 {
+.aluno-quadro-horarios .anlise-orientada-aobjeto-3 {
   margin-right: 34.6px;
   text-align: center;
   overflow-wrap: break-word;
@@ -672,7 +672,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .desenvolvimento-web-5 {
+.aluno-quadro-horarios .desenvolvimento-web-5 {
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -681,12 +681,12 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-7 {
+.aluno-quadro-horarios .container-7 {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-18 {
+.aluno-quadro-horarios .container-18 {
   margin-right: 4.5px;
   display: flex;
   flex-direction: row;
@@ -694,7 +694,7 @@
   width: 797.6px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container {
+.aluno-quadro-horarios .container {
   background: #90C3DB;
   position: relative;
   display: flex;
@@ -704,7 +704,7 @@
   width: 1090px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-17 {
+.aluno-quadro-horarios .container-17 {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -713,7 +713,7 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-8 {
+.aluno-quadro-horarios .vector-8 {
   background: #F5F5F5;
   position: absolute;
   left: 0px;
@@ -721,7 +721,7 @@
   right: 0px;
   height: 2px;
 }
-.aluno-quadro-de-horrios .vector-9 {
+.aluno-quadro-horarios .vector-9 {
   background: #F5F5F5;
   position: absolute;
   left: 0px;
@@ -729,7 +729,7 @@
   right: 0px;
   height: 2px;
 }
-.aluno-quadro-de-horrios .vector-10 {
+.aluno-quadro-horarios .vector-10 {
   background: #F5F5F5;
   position: absolute;
   left: 0px;
@@ -737,7 +737,7 @@
   bottom: 297px;
   height: 2px;
 }
-.aluno-quadro-de-horrios .vector-11 {
+.aluno-quadro-horarios .vector-11 {
   background: #F5F5F5;
   position: absolute;
   left: 0px;
@@ -745,7 +745,7 @@
   bottom: 146px;
   height: 2px;
 }
-.aluno-quadro-de-horrios .vector-12 {
+.aluno-quadro-horarios .vector-12 {
   background: #F5F5F5;
   position: absolute;
   left: 135px;
@@ -753,7 +753,7 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .vector-13 {
+.aluno-quadro-horarios .vector-13 {
   background: #F5F5F5;
   position: absolute;
   left: 292px;
@@ -761,7 +761,7 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .vector-14 {
+.aluno-quadro-horarios .vector-14 {
   background: #F5F5F5;
   position: absolute;
   left: 434px;
@@ -769,7 +769,7 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .vector-17 {
+.aluno-quadro-horarios .vector-17 {
   background: #F5F5F5;
   position: absolute;
   right: 130px;
@@ -777,7 +777,7 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .container-25 {
+.aluno-quadro-horarios .container-25 {
   position: relative;
   margin: 38px 0 33px 0;
   display: flex;
@@ -785,13 +785,13 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .container-20 {
+.aluno-quadro-horarios .container-20 {
   position: relative;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .s-0910 {
+.aluno-quadro-horarios .s-0910 {
   margin: 0 4.1px 89px 0;
   display: inline-block;
   overflow-wrap: break-word;
@@ -801,7 +801,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .s-1000 {
+.aluno-quadro-horarios .s-1000 {
   margin: 0 4.1px 106px 0.1px;
   display: inline-block;
   overflow-wrap: break-word;
@@ -811,7 +811,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .s-1100 {
+.aluno-quadro-horarios .s-1100 {
   margin: 0 1.1px 110px 3.1px;
   display: inline-block;
   overflow-wrap: break-word;
@@ -821,7 +821,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .s-1220 {
+.aluno-quadro-horarios .s-1220 {
   margin-left: 3.9px;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -830,7 +830,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-de-horrios .container-11 {
+.aluno-quadro-horarios .container-11 {
   background: #0979B0;
   position: absolute;
   left: 325px;
@@ -842,7 +842,7 @@
   height: 524px;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios .vector-15 {
+.aluno-quadro-horarios .vector-15 {
   background: #F5F5F5;
   position: absolute;
   right: 487px;
@@ -850,7 +850,7 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .vector-16 {
+.aluno-quadro-horarios .vector-16 {
   background: #F5F5F5;
   position: absolute;
   right: 314px;
@@ -858,13 +858,13 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-de-horrios .container-12 {
+.aluno-quadro-horarios .container-12 {
   position: relative;
   margin-right: 25px;
   display: flex;
   box-sizing: border-box;
 }
-.aluno-quadro-de-horrios {
+.aluno-quadro-horarios {
   background: #FFFFFF;
   display: flex;
   flex-direction: column;

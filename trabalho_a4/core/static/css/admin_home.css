@@ -41,18 +41,21 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item {
+.admin-home .menu-title {
   border-radius: 8px;
   margin: 0 16px 7px 16px;
   display: flex;
   align-self: flex-start;
   box-sizing: border-box;
+
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
 }
-.admin-home .home {
-  margin-right: 16px;
-  width: 24px;
-  height: 24px;
-}
+
 .admin-home .home-1 {
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -61,7 +64,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item-1 {
+.admin-home .menu-item {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
   margin-bottom: 4px;
@@ -71,28 +74,20 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-home .vector-5 {
-  margin-right: 16px;
-  width: 24px;
-  height: 24px;
+.admin-home .vector .v {
+  width: 25px;
+  height: 25px;
 }
-.admin-home .alunos {
+.admin-home .link {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
+  text-decoration: none;
 }
-.admin-home .menu-item-2 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .admin-home .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
@@ -119,15 +114,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item-3 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .admin-home .list {
   margin-bottom: 46px;
   display: flex;
@@ -149,10 +136,7 @@
   align-self: flex-start;
   box-sizing: border-box;
 }
-.admin-home .vector-7 {
-  width: 16px;
-  height: 20px;
-}
+
 .admin-home .icoutline-class {
   margin: 2px 20px 2px 0;
   display: flex;
@@ -168,26 +152,15 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item-4 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 8px;
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 20px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .admin-home .vector-8 {
   width: 22px;
   height: 16px;
 }
-.admin-home .material-symbolsgroup-outline {
-  margin: 4px 17px 4px 0;
-  display: flex;
-  width: 22px;
-  height: 16px;
-  box-sizing: border-box;
+.admin-home .vector {
+  margin: 0 16px 0px 0;
+  width: 25px;
+  height: 25px;
 }
 .admin-home .turmas {
   overflow-wrap: break-word;
@@ -197,15 +170,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item-5 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 17px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .admin-home .group-3 {
   border-radius: 8px;
   margin-bottom: 8px;
@@ -218,7 +183,7 @@
   width: 24px;
   height: 23px;
 }
-.admin-home .relatrios {
+.admin-home .relatorios {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -226,15 +191,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.admin-home .menu-item-6 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .admin-home .group-4 {
   border-radius: 8px;
   display: flex;
@@ -310,7 +267,7 @@
   width: 1090px;
   box-sizing: border-box;
 }
-.admin-home .relatrios-1 {
+.admin-home .relatorios-1 {
   margin: 0 0 17.5px 164.5px;
   display: inline-block;
   align-self: center;

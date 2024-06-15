@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -11,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="admin_alunos.css" />
+    <link rel="stylesheet" href="{% static 'css/admin_alunos.css' %}" />
   </head>
   <body>
     <div class="admin-alunos">
@@ -26,6 +27,81 @@
             </span>
           </div>
         </div>
+        
+        <div class="sidebar">
+          <div class="container-10">
+            <div class="title-2">
+            Universidade Utopia 
+            </div>
+            <div class="streamlineglobal-learning">
+              <img class="group" src="../assets/vectors/group_32_x2.svg" />
+            </div>
+          </div>
+          <div class="list">
+            <div class="menu-item">
+              <span class="discover">
+              Discover
+              </span>
+            </div>
+            <div class="menu-item-1">
+              <img class="home" src="../assets/vectors/home_1_x2.svg" />
+              <span class="home-1">
+              Home
+              <a href="/admin/" class="link">Home</a>
+              </span>
+            </div>
+            <div class="group-2">
+              <div class="menu-item-2">
+                <img class="vector-3" src="../assets/vectors/vector_3_x2.svg" />
+                <span class="alunos">
+                Alunos
+                </span>
+              </div>
+            </div>
+            <div class="menu-item-3">
+              <div class="phchalkboard-teacher-light">
+                <img class="vector-4" src="../assets/vectors/vector_24_x2.svg" />
+              </div>
+              <span class="professores">
+              Professores
+              </span>
+            </div>
+          </div>
+          <div class="list-1">
+            <div class="title-1">
+              <span class="biblioteca">
+              Biblioteca
+              </span>
+            </div>
+            <div class="menu-item-4">
+              <div class="icoutline-class">
+                <img class="vector-5" src="..assets/images/disciplinas.png" />
+              </div>
+              <span class="disciplinas">
+              Disciplinas
+              </span>
+            </div>
+            <div class="group-3">
+              <div class="menu-item-5">
+                <div class="material-symbolsgroup-outline">
+                  <img class="vector-6" src="../assets/vectors/vector_13_x2.svg" />
+                </div>
+                <span class="turmas">
+                Turmas
+                </span>
+              </div>
+            </div>
+            <div class="group-4">
+              <div class="menu-item-6">
+                <img class="vector-7" src="../assets/vectors/vector_52_x2.svg" />
+                <span class="relatorios">
+                Relatórios
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="alunos-1">
         Alunos
         </div>
@@ -231,78 +307,7 @@
         <div class="rectangle-1">
         </div>
       </div>
-      <div class="sidebar">
-        <div class="container-10">
-          <div class="title-2">
-          Universidade Utopia 
-          </div>
-          <div class="streamlineglobal-learning">
-            <img class="group" src="../assets/vectors/group_32_x2.svg" />
-          </div>
-        </div>
-        <div class="list">
-          <div class="menu-item">
-            <span class="discover">
-            Discover
-            </span>
-          </div>
-          <div class="menu-item-1">
-            <img class="home" src="../assets/vectors/home_1_x2.svg" />
-            <span class="home-1">
-            Home
-            </span>
-          </div>
-          <div class="group-2">
-            <div class="menu-item-2">
-              <img class="vector-3" src="../assets/vectors/vector_3_x2.svg" />
-              <span class="alunos">
-              Alunos
-              </span>
-            </div>
-          </div>
-          <div class="menu-item-3">
-            <div class="phchalkboard-teacher-light">
-              <img class="vector-4" src="../assets/vectors/vector_24_x2.svg" />
-            </div>
-            <span class="professores">
-            Professores
-            </span>
-          </div>
-        </div>
-        <div class="list-1">
-          <div class="title-1">
-            <span class="biblioteca">
-            Biblioteca
-            </span>
-          </div>
-          <div class="menu-item-4">
-            <div class="icoutline-class">
-              <img class="vector-5" src="../assets/vectors/vector_28_x2.svg" />
-            </div>
-            <span class="disciplinas">
-            Disciplinas
-            </span>
-          </div>
-          <div class="group-3">
-            <div class="menu-item-5">
-              <div class="material-symbolsgroup-outline">
-                <img class="vector-6" src="../assets/vectors/vector_13_x2.svg" />
-              </div>
-              <span class="turmas">
-              Turmas
-              </span>
-            </div>
-          </div>
-          <div class="group-4">
-            <div class="menu-item-6">
-              <img class="vector-7" src="../assets/vectors/vector_52_x2.svg" />
-              <span class="relatrios">
-              Relatórios
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </body>
 </html>

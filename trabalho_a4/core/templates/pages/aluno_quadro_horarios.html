@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="aluno_quadro_de_horrios.css" />
+    <link rel="stylesheet" href="{% static 'css/aluno_quadro_horarios.css' %}" />
   </head>
   <body>
-    <div class="aluno-quadro-de-horrios">
+    <div class="aluno-quadro-horarios">
       <div class="container-1">
         <div class="container-14">
           <span class="title">
@@ -46,20 +47,22 @@
             <div class="menu-item-3">
               <img class="home" src="../assets/vectors/home_6_x2.svg" />
               <span class="home-1">
+                <a href="/aluno/">Home</a>
               Home
               </span>
             </div>
             <div class="group-2">
               <div class="menu-item-4">
-                <img class="vector-14" src="../assets/vectors/vector_31_x2.svg" />
+                <img class="vector" src="../assets/vectors/vector_31_x2.svg" />
                 <span class="quadro-de-horrios">
                 Quadro de horários
                 </span>
               </div>
             </div>
             <div class="menu-item">
-              <img class="vector" src="../assets/vectors/vector_77_x2.svg" />
+              <img class="vector" src="..assets/images/disciplinas.png" />
               <span class="disciplinas">
+                <a href="/aluno/disciplinas">Disciplinas</a>
               Disciplinas
               </span>
             </div>
@@ -67,6 +70,7 @@
               <div class="menu-item-1">
                 <img class="group" src="../assets/vectors/group_13_x2.svg" />
                 <span class="solicitaes">
+                  <a href="/aluno/solicitacoes">Solicitações</a>
                 Solicitações
                 </span>
               </div>

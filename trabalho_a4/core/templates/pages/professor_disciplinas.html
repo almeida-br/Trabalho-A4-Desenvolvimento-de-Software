@@ -1,3 +1,4 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="professor_disciplinas.css" />
+    <link rel="stylesheet" href="{% static 'css/professor_disciplinas.css' %}" />
   </head>
   <body>
     <div class="professor-disciplinas">
@@ -45,6 +46,7 @@
           <div class="menu-item-1">
             <img class="home" src="../assets/vectors/home_13_x2.svg" />
             <span class="home-1">
+              <a href="/professor/">Home</a>
             Home
             </span>
           </div>
@@ -52,12 +54,13 @@
             <div class="menu-item-2">
               <img class="vector-2" src="../assets/vectors/vector_41_x2.svg" />
               <span class="turmas">
+                <a href="/professor/turmas/">Turmas</a>
               Turmas
               </span>
             </div>
           </div>
           <div class="menu-item-3">
-            <img class="vector-3" src="../assets/vectors/vector_68_x2.svg" />
+            <img class="vector-3" src="..assets/images/disciplinas.png" />
             <span class="disciplinas">
             Disciplinas
             </span>
@@ -66,6 +69,7 @@
             <div class="menu-item-4">
               <img class="group" src="../assets/vectors/group_6_x2.svg" />
               <span class="solicitaes">
+                <a href="/professor/solicitacoes/">Solicitações</a>
               Solicitações
               </span>
             </div>
