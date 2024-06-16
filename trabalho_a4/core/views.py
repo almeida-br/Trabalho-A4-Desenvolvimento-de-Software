@@ -1,7 +1,10 @@
 from django.shortcuts import render
+from .forms import AlunoForm
 
 # Create your views here.
 def index(request):
+    
+
     return render(request,'index.html')
 
 #páginas Admin
@@ -10,6 +13,11 @@ def adminHome(request):
 
 def admin_Alunos(request):
     return render(request,'pages/admin_alunos.html')
+
+def admin_AdicionarAluno(request):
+    form=AlunoForm()
+
+    return render(request,'pages/admin_adicionarAluno.html')
 
 def admin_Professores(request):
     return render(request,'pages/admin_professores.html')

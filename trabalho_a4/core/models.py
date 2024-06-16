@@ -2,15 +2,15 @@ from django.db import models
 
 # Create your models here.
 class AccessType(models.TextChoices):
-    ADMIN = "admi"
-    ALUNO = "alun"
-    PROFESSOR = "prof"
+    ADMIN = "admin"
+    ALUNO = "aluno"
+    PROFESSOR = "professor"
 
 class Login(models.Model):
     id=models.IntegerField(primary_key=True)
     email=models.EmailField()
     password=models.CharField(max_length=50)
-    type=models.CharField(max_length=4,choices=AccessType.choices)
+    type=models.CharField(max_length=9,choices=AccessType.choices)
 
 class Endereco(models.Model):
     logradouro=models.CharField(max_length=100)

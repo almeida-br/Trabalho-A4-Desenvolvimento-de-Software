@@ -1,3 +1,37 @@
+.aluno-home {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  box-sizing: border-box;
+}
+
+.aluno-home .container-header {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.5px 43px 7.5px 31px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.aluno-home .container-main {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.aluno-home .container-logo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
 .aluno-home .title {
   margin-right: 21px;
   overflow-wrap: break-word;
@@ -11,22 +45,20 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.aluno-home .group-1 {
+.aluno-home .logo {
+  margin: 8.3px 0 19.3px 0;
+  display: flex;
+  box-sizing: border-box;
   width: 54.7px;
   height: 47.4px;
 }
 .aluno-home .streamlineglobal-learning {
-  margin: 8.3px 0 19.3px 0;
-  display: flex;
+  
   width: 54.7px;
   height: 47.4px;
-  box-sizing: border-box;
+ 
 }
-.aluno-home .container-4 {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-}
+
 .aluno-home .group-2 {
   width: 35.8px;
   height: 32.5px;
@@ -38,11 +70,13 @@
   height: 32.5px;
   box-sizing: border-box;
 }
-.aluno-home .solaruser-bold {
-  margin-right: 19px;
-  width: 41px;
+
+.aluno-home .options-icon {
+  width: 40px;
   height: 40px;
+  margin: 50px;
 }
+
 .aluno-home .vector-3 {
   width: 35px;
   height: 33.7px;
@@ -58,33 +92,24 @@
   margin: 0 0px 6px 0px;
   display: flex;
   flex-direction: row;
-  width: 153.4px;
-  box-sizing: border-box;
+  gap: 10px;
+  width: max-content;
+  justify-content: space-between;
 }
 .aluno-home .vector-1 {
   background: #F5F5F5;
   width: 771px;
   height: 2px;
 }
-.aluno-home .container-6 {
-  margin: 7.5px 0 19.5px 0;
+.aluno-home .container-options {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: 771px;
+  width: 900px;
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-home .container-2 {
-  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2.5px 43px 7.5px 31px;
-  width: 1440px;
-  box-sizing: border-box;
-}
+
 .aluno-home .discover {
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -93,33 +118,33 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-home .menu-item-2 {
-  border-radius: 8px;
-  margin: 0 171.1px 12px 0;
-  display: flex;
-  box-sizing: border-box;
-}
-.aluno-home .home {
-  margin-right: 16px;
-  width: 24px;
-  height: 24px;
-}
-.aluno-home .home-1 {
+
+.aluno-home .link {
   overflow-wrap: break-word;
   font-family: 'Judson';
+  margin-left: 15px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
+  text-decoration: none;
 }
 .aluno-home .menu-item {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
-  margin-bottom: 4px;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 12px;
   padding: 8px 0 8px 16px;
   width: 263px;
+  box-sizing: border-box;
+}
+
+.aluno-quadro-horarios .menu-title {
+  border-radius: 8px;
+  margin: 0 171.1px 12px 0;
+  display: flex;
   box-sizing: border-box;
 }
 .aluno-home .vector-2 {
@@ -127,7 +152,7 @@
   width: 24px;
   height: 24px;
 }
-.aluno-home .quadro-de-horrios {
+.aluno-home .quadro-de-horarios {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
@@ -135,15 +160,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-home .menu-item-1 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .aluno-home .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
@@ -164,16 +181,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-home .menu-item-3 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 4px;
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .aluno-home .group {
   margin-right: 16px;
   width: 24px;
@@ -187,15 +195,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-home .menu-item-4 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .aluno-home .group-5 {
   border-radius: 8px;
   display: flex;
@@ -205,11 +205,8 @@
 .aluno-home .sidebar {
   border-right: 1px solid #E0E0E0;
   background: #90C3DB;
-  margin-right: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 74px 16px 616px 15px;
   box-sizing: border-box;
 }
 .aluno-home .disciplinas-do-dia {
@@ -244,17 +241,5 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.aluno-home .container-5 {
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.aluno-home {
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  width: 1440px;
-  box-sizing: border-box;
-}
+
+

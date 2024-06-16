@@ -23,7 +23,13 @@ from core import views
 
 urlpatterns = [
     path("",index,name='index'),
+    path("accounts/",include('django.contrib.auth.urls')),
     path("aluno/",include('core.aluno_url')),
     path("professor/",include('core.professor_url')),
     path("admin/",include('core.admin_url'))
 ]
+
+EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
+
+LOGIN_URL="login"
+LOGIN_REDIRECT_URL="admin/"

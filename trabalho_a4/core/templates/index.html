@@ -18,14 +18,16 @@
         Universidade Utopia 
         </span>
         <div class="streamlineglobal-learning">
-          <img class="group" src="/trabalho_a4/core/templates/assets/images/logo.png" />
+          <img src="{% static 'images/logo.png' %}" />
         </div>
       </div>
       <div class="container-4">
         <div class="login-2">
         Login
         </div>
-        <form>
+        
+        <form method="post">
+          {% csrf_token %}
           <div class="container-1">
             <span class="login-1">
               <input type="text" class="login-1" placeholder="login" name="login" >
@@ -33,12 +35,12 @@
           </div>
           <div class="container-2">
             <span class="senha">
-            senha
+            <input type="password" class="login-1" placeholder="senha" name="password" >
             </span>
           </div>
         </form>
         <div class="container">
-          <a href="" class="entrar">Entrar</a>
+          <button type="submit" class="entrar">Entrar</button>
         </div>
         <span class="esqueci-minha-senha">
         Esqueci minha senha
