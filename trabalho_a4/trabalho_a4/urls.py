@@ -16,18 +16,20 @@ Including another URLconf
 """
 
 from django.contrib import admin
+from django.conf import settings
+from django.conf.urls.static import static
 from django.urls import path,include
-from core.views import index
 from core import views
 
 
 urlpatterns = [
-    path("",index,name='index'),
+    path("",views.index,name='index'),
+    path("senha/",views.recuperaSenha),
     path("accounts/",include('django.contrib.auth.urls')),
     path("aluno/",include('core.aluno_url')),
     path("professor/",include('core.professor_url')),
     path("admin/",include('core.admin_url'))
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 

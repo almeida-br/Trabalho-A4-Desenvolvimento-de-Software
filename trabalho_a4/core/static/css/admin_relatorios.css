@@ -1,182 +1,35 @@
-.admin-relatorios .vector {
-  width: 41.3px;
-  height: 44.7px;
-}
-.admin-relatorios .bytesizeoptions {
-  margin-bottom: 8.2px;
-  display: flex;
-  width: 41.3px;
-  height: 44.7px;
-  box-sizing: border-box;
-}
-.admin-relatorios .portal-do-admin {
-  overflow-wrap: break-word;
-  font-family: 'Inter';
-  font-weight: 600;
-  font-size: 45px;
-  letter-spacing: -0.9px;
-  line-height: 1.1;
-  color: #E5E5E5;
-}
-.admin-relatorios .title {
-  margin-top: 2.8px;
-  display: flex;
-  box-sizing: border-box;
-}
-.admin-relatorios .container-10 {
-  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
-  position: relative;
-  margin-bottom: 42px;
+.admin-relatorios {
+  background: #FFFFFF;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 16.2px 45px 16px 39.9px;
-  width: 1154px;
+  width: 100vw;
+  height: 100vh;
   box-sizing: border-box;
+  margin: -10px;
 }
-.admin-relatorios .relatorios-1 {
-  margin: 0 81.2px 41px 81.2px;
-  display: inline-block;
-  align-self: flex-start;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .relatrio-de-professores {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container-7 {
-  background: #94DFFF;
-  position: relative;
-  padding: 21px 24.2px 71px 24.2px;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .relatrio-de-turmas {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container {
-  background: #94DFFF;
-  position: relative;
-  padding: 21px 34.2px 71px 34.2px;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .relatrio-de-alunos {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container-4 {
-  background: #94DFFF;
-  position: relative;
-  display: flex;
-  padding: 21px 70px 71px 0;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .container-2 {
-  margin: 0 35px 16px 40px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 22px;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.admin-relatorios .relatrio-de-disciplinas {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container-6 {
-  background: #94DFFF;
-  position: relative;
-  margin-right: 19px;
-  padding: 21px 22.3px 71px 22.3px;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .contrato-de-professores {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container-9 {
-  background: #94DFFF;
-  position: relative;
-  margin-right: 25px;
-  display: flex;
-  padding: 21px 17px 71px 0;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .contrato-de-alunos {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .container-1 {
-  background: #94DFFF;
-  position: relative;
-  display: flex;
-  padding: 21px 73px 71px 0;
-  width: 345px;
-  box-sizing: border-box;
-}
-.admin-relatorios .container-5 {
-  margin: 0 35px 341px 40px;
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-  box-sizing: border-box;
-}
-.admin-relatorios .rectangle-23 {
-  background: linear-gradient(170.1deg, rgba(255, 255, 255, 0) -23.2%, #FFFFFF 43.68%, #FFFFFF 93.5%);
-  margin: 0 61px 17px 61px;
-  align-self: flex-start;
-  width: 853px;
-  height: 69px;
-}
-.admin-relatorios .rectangle-1 {
-  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
-  margin-left: 9px;
-  width: 1145px;
-  height: 52px;
-}
-.admin-relatorios .container-8 {
+
+/*sidebar*/
+.admin-relatorios .sidebar {
+  border-right: 1px solid #90C3DB;
+  background: #90C3DB;
   position: relative;
   display: flex;
   flex-direction: column;
+  padding: 16px 16px 0px 15px;
   box-sizing: border-box;
 }
-.admin-relatorios .title-2 {
+
+.admin-relatorios .sidebar .container-header {
+  margin: 0 9px 9px 9px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.admin-relatorios .sidebar .container-header .title{
   margin: 0 5.8px 10.5px 0;
-  display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -188,56 +41,16 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
-.admin-relatorios .group {
-  width: 39.9px;
-  height: 37.1px;
-}
-.admin-relatorios .streamlineglobal-learning {
-  background: #90C3DB;
-  margin-top: 3.5px;
+
+.admin-relatorios .list {
+  margin-top: 46px;
   display: flex;
-  padding: 1.4px 1.6px;
-  width: 43px;
-  height: 40px;
-  box-sizing: border-box;
-}
-.admin-relatorios .container-3 {
-  margin: 0 9px 9px 9px;
-  display: flex;
-  flex-direction: row;
-  align-self: flex-start;
+  flex-direction: column;
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-relatorios .discover {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-}
+
 .admin-relatorios .menu-item {
-  border-radius: 8px;
-  margin: 0 16px 7px 16px;
-  display: flex;
-  align-self: flex-start;
-  box-sizing: border-box;
-}
-.admin-relatorios .home {
-  margin-right: 16px;
-  width: 24px;
-  height: 24px;
-}
-.admin-relatorios .home-1 {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .menu-item-1 {
   border-radius: 8px;
   background: rgba(247, 247, 247, 0.5);
   margin-bottom: 4px;
@@ -247,197 +60,112 @@
   width: 263px;
   box-sizing: border-box;
 }
-.admin-relatorios .vector-3 {
-  margin-right: 16px;
-  width: 24px;
-  height: 24px;
+
+.admin-relatorios .vector {
+  margin: 0 16px 0px 0;
+  width: 25px;
+  height: 25px;
 }
-.admin-relatorios .alunos {
+
+.admin-relatorios .link {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: #000000;
+  text-decoration: none;
 }
-.admin-relatorios .menu-item-2 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .group-2 {
-  border-radius: 8px;
-  margin-bottom: 4px;
-  display: flex;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .vector-4 {
-  width: 26px;
-  height: 22px;
-}
-.admin-relatorios .phchalkboard-teacher-light {
-  margin: 0 16px 2px 0;
-  display: flex;
-  width: 26px;
-  height: 22px;
-  box-sizing: border-box;
-}
-.admin-relatorios .professores {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .menu-item-3 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .list {
-  margin-bottom: 46px;
+
+.admin-relatorios .container-content {
   display: flex;
   flex-direction: column;
-  width: fit-content;
+  height: 100%;
+  width: 80vw;
   box-sizing: border-box;
 }
-.admin-relatorios .biblioteca {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
+
+.admin-relatorios .container-content .container-header {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16.2px 54px 16px 30.9px;
+  width: 100%;
+  box-sizing: border-box;
 }
-.admin-relatorios .title-1 {
+
+.admin-relatorios .container-content .container-header .title {
   margin: 0 16px 8px 16px;
   display: flex;
   align-self: flex-start;
   box-sizing: border-box;
 }
-.admin-relatorios .vector-5 {
-  width: 16px;
-  height: 20px;
-}
-.admin-relatorios .icoutline-class {
-  margin: 2px 20px 2px 0;
-  display: flex;
-  width: 16px;
-  height: 20px;
-  box-sizing: border-box;
-}
-.admin-relatorios .disciplinas {
+/*============*/
+
+.admin-relatorios .content-title {
+  margin: 0 64.3px 16px 64.3px;
+  display: inline-block;
+  align-self: flex-start;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   color: #000000;
 }
-.admin-relatorios .menu-item-4 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 8px;
+
+.admin-relatorios .vector {
+  width: 41.3px;
+  height: 44.7px;
+}
+
+.admin-relatorios .portal-do-admin {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: -0.9px;
+  line-height: 1.1;
+  color: #E5E5E5;
+}
+
+.admin-relatorios .title {
+  margin-top: 2.8px;
   display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 20px;
-  width: 263px;
   box-sizing: border-box;
 }
-.admin-relatorios .vector-6 {
-  width: 22px;
-  height: 16px;
-}
-.admin-relatorios .material-symbolsgroup-outline {
-  margin: 4px 17px 4px 0;
-  display: flex;
-  width: 22px;
-  height: 16px;
-  box-sizing: border-box;
-}
-.admin-relatorios .turmas {
+
+.admin-relatorios .text {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
-  font-size: 16px;
+  font-size: 25px;
   line-height: 1.5;
   color: #000000;
 }
-.admin-relatorios .menu-item-5 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
+
+.admin-relatorios .container-relatorios .relatorio {
+  background: #94DFFF;
+  position: relative;
+  padding: 21px 24.2px 71px 24.2px;
+  width: 345px;
+  box-sizing: border-box;
+}
+
+.admin-relatorios .container-relatorios {
+  margin: 0 35px 16px 40px;
   display: flex;
   flex-direction: row;
-  padding: 8px 0 8px 17px;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .group-3 {
-  border-radius: 8px;
-  margin-bottom: 8px;
-  display: flex;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .vector-7 {
-  margin: 0.5px 16px 0.5px 0;
-  width: 24px;
-  height: 23px;
-}
-.admin-relatorios .relatorios {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-}
-.admin-relatorios .menu-item-6 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .group-4 {
-  border-radius: 8px;
-  display: flex;
-  width: 263px;
-  box-sizing: border-box;
-}
-.admin-relatorios .list-1 {
-  display: flex;
-  flex-direction: column;
+  column-gap: 22px;
   width: fit-content;
   box-sizing: border-box;
 }
-.admin-relatorios .sidebar {
-  border-right: 1px solid #90C3DB;
-  background: #90C3DB;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  display: flex;
-  flex-direction: column;
-  padding: 16.5px 16px 0 15px;
-  height: 983px;
-  box-sizing: border-box;
-}
-.admin-relatorios {
-  background: #FFFFFF;
-  display: flex;
-  width: 1440px;
-  box-sizing: border-box;
+
+.admin-relatorios .footer {
+  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
+  width: 100%;
+  height: 131px;
 }

@@ -12,163 +12,146 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/admin_home.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin_home.css' %}" />
   </head>
   <body>
     <div class="admin-home">
       <div class="sidebar">
-        <div class="container-14">
-          <div class="title-2">
-          Universidade Utopia 
+        <div class="container-header">
+          <div class="title">
+              Universidade Utopia 
           </div>
-          <div class="streamlineglobal-learning">
-            <img class="logo" src="{% static 'images/logo.png' %}" />
-          </div>
+            <img src="{% static 'images/logo2.png' %}" style="width: 43px; height: 40px;" />
         </div>
         <div class="list">
-          <span class="menu-title">
-            Discover
-          </span>
 
             <div class="menu-item">
               <div class="vector">
-                <img src="../assets/images/home.png" />
+                <img src="{% static 'images/home.png' %}" style="width: 25px; height: 25px;" />
               </div>
               <a href="" class="link">Home</a>
             </div>
           
             <div class="menu-item">
               <div class="vector">
-                <img src="{% static 'images/aluno.png' %}" />
+                <img src="{% static 'images/aluno.png' %}" style="width: 25px; height: 25px;" />
               </div>
               <a href="alunos/" class="link">Alunos</a>
             </div>
           
           <div class="menu-item">
             <div class="vector">
-              <img src="{% static 'images/professores.png' %}"" />
+              <img src="{% static 'images/professores.png' %}" style="width: 25px; height: 25px;" />
             </div>
             <a href="professores/" class="link">Professores</a>
           </div>
-        </div>
-
-        <div class="list">
-          <span class="menu-title">
-            Biblioteca
-          </span>
 
           <div class="menu-item">
             <div class="vector">
-              <img src="{% static 'images/disciplinas.png' %}" />
+              <img src="{% static 'images/disciplinas.png' %}" style="width: 25px; height: 25px;" />
             </div>
             <a href="disciplinas/" class="link">Disciplinas</a>
           </div>
 
           <div class="menu-item">
             <div class="vector">
-              <img src="{% static 'images/turmas.png' %}" />
+              <img src="{% static 'images/turmas.png' %}" style="width: 25px; height: 25px;" />
             </div>
             <a href="turmas/" class="link">Turmas</a>
           </div>
 
           <div class="menu-item">
             <div class="vector">
-              <img src="{% static 'images/relatorios.png' %}" />
+              <img src="{% static 'images/relatorios.png' %}" style="width: 25px; height: 25px;" />
             </div>
             <a href="relatorios/" class="link">Relatórios</a>
           </div>
         </div>
       </div>
-      <div class="container-1">
-        <div class="container-11">
-          <div class="bytesizeoptions">
-            <img class="vector-10" src="../assets/vectors/vector_90_x2.svg" />
-          </div>
+      <div class="container-content">
+        <div class="container-header">
+            <img src="{% static 'images/options.png' %}" style="width: 50px; height: 50px;" />
           <div class="title">
             <span class="portal-do-admin">
             Portal do admin
             </span>
           </div>
         </div>
-        <div class="container-7">
-          <div class="azul-escuro-elaranja-moderno-profissional-cincia-etecnologia-pessoal-assinatura-de-email-1">
+        <div class="container-posts">
+          <div class="anuncio">
+            <img src="{% static 'images/anuncio_3.png' %}" />
           </div>
-          <div class="assinatura-de-email-laranja-epreto-simples-1">
+          <div class="anuncio">
+            <img src="{% static 'images/anuncio_4.png' %}" />
           </div>
         </div>
-        <div class="container-10">
-          <div class="container-9">
-            <div class="relatorios-1">
+        <div class="content">
+          <div class="container-2">
+            <div class="title">
             Relatórios
             </div>
-            <div class="container-15">
-              <img class="vector-14" src="../assets/vectors/vector_35_x2.svg" />
-              <span class="turma-fes-030131">
+            <div class="container-relatorio">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <span class="descricao">
               Turma FES030131
               </span>
             </div>
-            <div class="container-3">
-              <img class="vector-15" src="../assets/vectors/vector_25_x2.svg" />
-              <span class="turma-gol-041222">
+            <div class="container-relatorio">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <span class="descricao">
               Turma GOL041222
               </span>
             </div>
-            <div class="container-4">
-              <img class="vector-16" src="../assets/vectors/vector_45_x2.svg" />
-              <span class="turma-r-051224">
+            <div class="container-relatorio">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <span class="descricao">
               Turma R051224
               </span>
             </div>
-            <div class="container-13">
-              <img class="vector-17" src="../assets/vectors/vector_100_x2.svg" />
-              <span class="turma-ep-020125">
+            <div class="container-relatorio">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <span class="descricao">
               Turma EP020125
               </span>
             </div>
-            <div class="container-8">
-              <img class="vector-18" src="../assets/vectors/vector_95_x2.svg" />
-              <span class="turma-p-010203">
+            <div class="container-relatorio">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <span class="descricao">
               Turma P010203
               </span>
             </div>
           </div>
-          <div class="container-12">
-            <div class="solicitaes-recentes">
+          <div class="container-2">
+            <div class="title">
             Solicitações Recentes
             </div>
-            <div class="container">
-              <div class="announcement-1">
-                <img class="vector-19" src="../assets/vectors/vector_87_x2.svg" />
-              </div>
-              <span class="relatrio-fes-030131">
+            <div class="container-solicitacoes">
+                <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <div class="descricao">
               Relatório FES030131
-              </span>
-            </div>
-            <div class="container-6">
-              <div class="announcement-2">
-                <img class="vector-11" src="../assets/vectors/vector_61_x2.svg" />
               </div>
-              <div class="histrico-escolar">
+            </div>
+            <div class="container-solicitacoes">
+                <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <div class="descricao">
               Histórico Escolar
               </div>
             </div>
-            <div class="container-2">
-              <div class="announcement">
-                <img class="vector-12" src="../assets/vectors/vector_1_x2.svg" />
-              </div>
-              <div class="correo-de-notas">
+            <div class="container-solicitacoes">
+                <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <div class="descricao">
               Correção de Notas
               </div>
             </div>
-            <div class="container-5">
-              <img class="vector-13" src="../assets/vectors/vector_21_x2.svg" />
-              <div class="trancamento-de-matricula">
+            <div class="container-solicitacoes">
+              <img src="{% static 'images/iconRelatorio.png' %}" style="width: 35px; height: 40px;" />
+              <div class="descricao">
               Trancamento de Matricula
               </div>
             </div>
           </div>
         </div>
-        <div class="rectangle-1">
+        <div class="footer">
         </div>
       </div>
     </div>

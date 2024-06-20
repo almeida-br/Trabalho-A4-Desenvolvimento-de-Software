@@ -1,0 +1,223 @@
+.recuperacao-de-senha {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  box-sizing: border-box;
+  margin: -10px;
+}
+
+.recuperacao-de-senha .title {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: -0.7px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #E0E0E0, #B5DBFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.recuperacao-de-senha .logo {
+  width: 54.7px;
+  height: 47.4px;
+}
+.recuperacao-de-senha .streamlineglobal-learning {
+  position: absolute;
+  left: 50%;
+  top: 33.8px;
+  translate: -50% 0;
+  display: flex;
+  width: 54.7px;
+  height: 47.4px;
+  box-sizing: border-box;
+}
+.recuperacao-de-senha .container-header {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  margin-bottom: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 5vw;
+  width: 100vw;
+  box-sizing: border-box;
+}
+.recuperacao-de-senha .titulo{
+  margin: 0 13px 5px 0;
+  display: inline-block;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.recuperacao-de-senha form{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recuperacao-de-senha .link {
+  margin-left: 1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.47);
+
+}
+
+.recuperacao-de-senha form input.login-input {
+  background: #F6F6F6;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 26px;
+  padding: 12px 15px 7px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.recuperacao-de-senha .login-input {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(59, 59, 59, 0.54);
+}
+
+.recuperacao-de-senha .descricao{
+  margin-bottom: 18.5px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.recuperacao-de-senha .text {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(99, 99, 99, 0.54);
+}
+.recuperacao-de-senha .container-3 {
+  border-radius: 10px;
+  background: #F6F6F6;
+  position: relative;
+  margin: 0 33.5px 25px 33.5px;
+  align-self: flex-start;
+  padding: 11px 15px 8px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.recuperacao-de-senha .email {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: rgba(99, 99, 99, 0.54);
+}
+.recuperacao-de-senha .container-1 {
+  border-radius: 10px;
+  background: #F6F6F6;
+  position: relative;
+  margin: 0 33.5px 41px 33.5px;
+  align-self: flex-start;
+  padding: 10px 19px 9px 19px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.recuperacao-de-senha .enviar {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.recuperacao-de-senha button {
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  background: rgba(29, 65, 108, 0.74);
+  position: relative;
+  margin-bottom: 36px;
+  display: flex;
+  padding: 8px;
+  width:300px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+.recuperacao-de-senha .login {
+  margin-left: 5px;
+  align-self: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.47);
+}
+.recuperacao-de-senha .container-5 {
+  box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  background: #0277BD;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 29.5px 28.5px 38px 16.5px;
+  box-sizing: border-box;
+}
+.recuperacao-de-senha .recuperacao-de-senha-1 {
+  margin: 49.5px 0 365.5px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.5;
+  color: #000000;
+}
+.recuperacao-de-senha .container-main {
+  margin-bottom: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  box-sizing: border-box;
+
+  box-shadow: 5px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 41px;
+  background: #0277BD;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 29.5px 28.5px 38px 16.5px;
+}
+.recuperacao-de-senha .footer {
+  background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
+  width: 100vw;
+  height: 134px;
+}
+

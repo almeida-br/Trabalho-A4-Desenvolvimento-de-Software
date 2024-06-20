@@ -1,5 +1,62 @@
+/**/
+
+.professor-turmas {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: -10px;
+}
+
+.professor-turmas .container-main {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.professor-turmas .menu-item {
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.professor-turmas .sidebar {
+  border-right: 1px solid #90C3DB;
+  background: #90C3DB;
+  display: flex;
+  flex-direction: column;
+  padding: 16.5px 16px 561px 15px;
+  box-sizing: border-box;
+}
+.professor-turmas .container-header {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5px 43px 7.5px 31px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.professor-turmas .container-logo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
 .professor-turmas .title {
-  margin-right: 12px;
+  margin-right: 21px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -11,6 +68,65 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+.professor-turmas .logo {
+  margin: 8.3px 0 19.3px 0;
+  display: flex;
+  box-sizing: border-box;
+  width: 54.7px;
+  height: 47.4px;
+}
+
+.professor-turmas .container-13 {
+  margin: 7.5px 0 19.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 771px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.professor-turmas .container-options {
+  display: flex;
+  flex-direction: row;
+  margin: 7.5px 0 19.5px 0;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.professor-turmas .options-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.professor-turmas .line {
+  background: #F5F5F5;
+  width: 771px;
+  height: 2px;
+}
+
+.professor-turmas .list {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.professor-turmas .link {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  text-decoration: none;
+}
+
+/**/
+
 .professor-turmas .group-1 {
   width: 54.7px;
   height: 47.4px;
@@ -93,12 +209,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-turmas .menu-item {
-  border-radius: 8px;
-  margin: 0 171.1px 12px 0;
-  display: flex;
-  box-sizing: border-box;
-}
+
 .professor-turmas .home {
   margin-right: 16px;
   width: 24px;
@@ -112,16 +223,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-turmas .menu-item-1 {
-  border-radius: 8px;
-  background: rgba(247, 247, 247, 0.5);
-  margin-bottom: 4px;
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .professor-turmas .vector-2 {
   margin-right: 16px;
   width: 24px;
@@ -135,15 +237,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-turmas .menu-item-2 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .professor-turmas .group-2 {
   border-radius: 8px;
   margin-bottom: 4px;
@@ -164,16 +258,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-turmas .menu-item-3 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 4px;
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .professor-turmas .group {
   margin-right: 16px;
   width: 24px;
@@ -187,29 +272,11 @@
   line-height: 1.5;
   color: #000000;
 }
-.professor-turmas .menu-item-4 {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: row;
-  padding: 8px 0 8px 16px;
-  width: 263px;
-  box-sizing: border-box;
-}
+
 .professor-turmas .group-5 {
   border-radius: 8px;
   display: flex;
   width: 263px;
-  box-sizing: border-box;
-}
-.professor-turmas .sidebar {
-  border-right: 1px solid #E0E0E0;
-  background: #90C3DB;
-  margin-bottom: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 74px 16px 620px 15px;
   box-sizing: border-box;
 }
 .professor-turmas .buscar {
@@ -825,11 +892,4 @@
   width: fit-content;
   box-sizing: border-box;
 }
-.professor-turmas {
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1440px;
-  box-sizing: border-box;
-}
+

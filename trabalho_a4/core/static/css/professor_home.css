@@ -1,5 +1,5 @@
 .professor-home .title {
-  margin-right: 12px;
+  margin-right: 21px;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 700;
@@ -22,10 +22,12 @@
   height: 47.4px;
   box-sizing: border-box;
 }
-.professor-home .container-1 {
+.professor-home .logo {
+  margin: 8.3px 0 19.3px 0;
   display: flex;
-  flex-direction: row;
   box-sizing: border-box;
+  width: 54.7px;
+  height: 47.4px;
 }
 .professor-home .group-2 {
   width: 35.8px;
@@ -61,7 +63,21 @@
   width: 153.4px;
   box-sizing: border-box;
 }
-.professor-home .vector-1 {
+
+.professor-home .container-options {
+  display: flex;
+  flex-direction: row;
+  margin: 7.5px 0 19.5px 0;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.professor-home .options-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.professor-home .line {
   background: #F5F5F5;
   width: 771px;
   height: 2px;
@@ -75,30 +91,42 @@
   height: fit-content;
   box-sizing: border-box;
 }
-.professor-home .container-9 {
+.professor-home .container-header {
   background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
   position: relative;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  padding: 6.5px 43px 3.5px 31px;
-  width: 1440px;
+  padding: 2.5px 43px 7.5px 31px;
+  width: 100vw;
   box-sizing: border-box;
 }
-.professor-home .discover {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
+.professor-home .container-logo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
 }
+
+.professor-home .list {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
 .professor-home .menu-item {
   border-radius: 8px;
-  margin: 0 171.1px 12px 0;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
   display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
   box-sizing: border-box;
 }
+
 .professor-home .home {
   margin-right: 16px;
   width: 24px;
@@ -151,10 +179,10 @@
   width: 263px;
   box-sizing: border-box;
 }
-.professor-home .vector-3 {
-  margin: 0.5px 20px 0.5px 0;
-  width: 19px;
-  height: 23px;
+.professor-home .vector {
+  margin: 0 16px 0px 0;
+  width: 25px;
+  height: 25px;
 }
 .professor-home .disciplinas {
   overflow-wrap: break-word;
@@ -179,14 +207,7 @@
   width: 24px;
   height: 24px;
 }
-.professor-home .solicitaes {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #000000;
-}
+
 .professor-home .menu-item-4 {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.5);
@@ -203,13 +224,11 @@
   box-sizing: border-box;
 }
 .professor-home .sidebar {
-  border-right: 1px solid #E0E0E0;
+  border-right: 1px solid #90C3DB;
   background: #90C3DB;
-  margin-bottom: 24px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 74px 16px 620px 15px;
+  padding: 16.5px 16px 561px 15px;
   box-sizing: border-box;
 }
 .professor-home .turmas {
@@ -443,9 +462,11 @@
   flex-direction: column;
   box-sizing: border-box;
 }
-.professor-home .container-14 {
+.professor-home .container-main {
   display: flex;
   flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
   width: fit-content;
   box-sizing: border-box;
 }
@@ -453,7 +474,19 @@
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 1440px;
+  width: 100vw;
+  height: 100vh;
   box-sizing: border-box;
+  margin: -10px;
+}
+
+.professor-home .link {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  text-decoration: none;
 }

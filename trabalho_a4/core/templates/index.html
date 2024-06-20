@@ -13,40 +13,27 @@
   </head>
   <body>
     <div class="login">
-      <div class="container-3">
+      <div class="container-header">
+        <img class="logo" src="{% static 'images/logo.png' %}" />
         <span class="title">
-        Universidade Utopia 
+          Universidade Utopia 
         </span>
-        <div class="streamlineglobal-learning">
-          <img src="{% static 'images/logo.png' %}" />
-        </div>
       </div>
-      <div class="container-4">
-        <div class="login-2">
+      <div class="container-form">
+        <div class="login-form">
         Login
         </div>
         
         <form method="post">
           {% csrf_token %}
-          <div class="container-1">
-            <span class="login-1">
-              <input type="text" class="login-1" placeholder="login" name="login" >
-            </span>
-          </div>
-          <div class="container-2">
-            <span class="senha">
-            <input type="password" class="login-1" placeholder="senha" name="password" >
-            </span>
-          </div>
+            <input type="text" class="login-input" placeholder="login" name="login" >
+            <input type="password" class="login-input" placeholder="senha" name="password" >
+            <button type="submit" class="entrar">Entrar</button>
         </form>
-        <div class="container">
-          <button type="submit" class="entrar">Entrar</button>
-        </div>
-        <span class="esqueci-minha-senha">
-        Esqueci minha senha
-        </span>
+      
+        <a href="senha/" class="esqueci-minha-senha">Esqueci minha senha</a>
       </div>
-      <div class="rectangle-7">
+      <div class="footer">
       </div>
     </div>
   </body>

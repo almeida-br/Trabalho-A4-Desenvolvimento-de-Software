@@ -3,9 +3,12 @@ from .forms import AlunoForm
 
 # Create your views here.
 def index(request):
-    
 
     return render(request,'index.html')
+
+def recuperaSenha(request):
+    return render(request,'pages/recupera_senha.html')
+
 
 #páginas Admin
 def adminHome(request):

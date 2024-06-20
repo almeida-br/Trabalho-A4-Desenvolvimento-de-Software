@@ -1,3 +1,5 @@
+
+
 .aluno-solicitacoes .title {
   margin-right: 21px;
   overflow-wrap: break-word;
@@ -11,6 +13,135 @@
   background-clip: text;
   -webkit-background-clip: text;
 }
+
+/**/
+
+.aluno-solicitacoes .container-main {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  justify-content: space-between;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  margin: -10px;
+}
+
+.aluno-solicitacoes .menu-item {
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .sidebar {
+  border-right: 1px solid #90C3DB;
+  background: #90C3DB;
+  display: flex;
+  flex-direction: column;
+  padding: 16.5px 16px 561px 15px;
+  box-sizing: border-box;
+}
+.aluno-solicitacoes .container-header {
+  background: linear-gradient(90deg, #0979B0, rgba(4, 51, 74, 0.95));
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5px 43px 7.5px 31px;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+.aluno-solicitacoes .container-logo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.aluno-solicitacoes .title {
+  margin-right: 21px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.5px;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #E0E0E0, #B5DBFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.aluno-solicitacoes .logo {
+  margin: 8.3px 0 19.3px 0;
+  display: flex;
+  box-sizing: border-box;
+  width: 54.7px;
+  height: 47.4px;
+}
+
+.aluno-solicitacoes .container-13 {
+  margin: 7.5px 0 19.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 771px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.aluno-solicitacoes .container-options {
+  display: flex;
+  flex-direction: row;
+  margin: 7.5px 0 19.5px 0;
+  height: fit-content;
+  box-sizing: border-box;
+}
+
+.aluno-solicitacoes .options-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.aluno-solicitacoes .line {
+  background: #F5F5F5;
+  width: 771px;
+  height: 2px;
+}
+
+.aluno-solicitacoes .list {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.aluno-solicitacoes .link {
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  text-decoration: none;
+}
+
+/**/
+
 .aluno-solicitacoes .group-3 {
   width: 54.7px;
   height: 47.4px;
@@ -93,12 +224,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-solicitacoes .menu-item {
-  border-radius: 8px;
-  margin: 0 171.1px 12px 0;
-  display: flex;
-  box-sizing: border-box;
-}
+
 .aluno-solicitacoes .home {
   margin-right: 16px;
   width: 24px;
@@ -202,16 +328,7 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-solicitacoes .sidebar {
-  border-right: 1px solid #E0E0E0;
-  background: #90C3DB;
-  margin-right: 56px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 74px 16px 616px 15px;
-  box-sizing: border-box;
-}
+
 .aluno-solicitacoes .solicitao {
   margin: 0 0.4px 33px 0.4px;
   display: inline-block;
@@ -293,12 +410,14 @@
   padding: 4px 14.8px 6px 8.2px;
   box-sizing: border-box;
 }
+
 .aluno-solicitacoes .container-17 {
   margin: 6px 0 5px 0;
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
 }
+
 .aluno-solicitacoes .container-9 {
   margin: 0 0 50px 2px;
   display: flex;
@@ -545,13 +664,5 @@
   display: flex;
   flex-direction: row;
   width: fit-content;
-  box-sizing: border-box;
-}
-.aluno-solicitacoes {
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 1440px;
   box-sizing: border-box;
 }

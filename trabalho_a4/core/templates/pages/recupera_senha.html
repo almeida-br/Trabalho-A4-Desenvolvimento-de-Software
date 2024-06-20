@@ -1,0 +1,42 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>recuperação de senha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{%static 'css/recupera_senha.css'%}" />
+  </head>
+  <body>
+    <div class="recuperacao-de-senha">
+      <div class="container-header">
+        <span class="title">
+        Universidade Utopia 
+        </span>
+          <img class="logo" src="{%static 'images/logo.png'%}" />
+      </div>
+      <div class="container-main">
+          <div class="titulo">
+          Recuperação de Senha
+          </div>
+          <div class="descricao">
+          Para recuperar a senha, informe seu endereço de email e matricula, que nós enviaremos um link para a alteração de senha. 
+          </div>
+          <form>
+            {% csrf_token %}
+            <input type="text" class="login-input" placeholder="matricula" name="matricula" >
+            <input type="text" class="login-input" placeholder="email" name="email" >
+            <button type="submit" class="entrar">Entrar</button>
+          </form>
+
+          <a href="/" class="link">Login</a>
+      </div>
+      <div class="footer">
+      </div>
+    </div>
+  </body>
+</html>
