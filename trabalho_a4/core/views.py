@@ -1,10 +1,8 @@
 from django.shortcuts import render
-from .forms import AlunoForm
+from .forms import LoginForm
+
 
 # Create your views here.
-def index(request):
-
-    return render(request,'index.html')
 
 def recuperaSenha(request):
     return render(request,'pages/recupera_senha.html')
@@ -18,7 +16,6 @@ def admin_Alunos(request):
     return render(request,'pages/admin_alunos.html')
 
 def admin_AdicionarAluno(request):
-    form=AlunoForm()
 
     return render(request,'pages/admin_adicionarAluno.html')
 

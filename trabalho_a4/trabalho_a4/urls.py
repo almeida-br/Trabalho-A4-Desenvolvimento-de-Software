@@ -19,11 +19,12 @@ from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path,include
-from core import views
 
+from core import views
+from core.forms import loginView
 
 urlpatterns = [
-    path("",views.index,name='index'),
+    path("",loginView.as_view(template_name="login.html", content_type='text/plain')),
     path("senha/",views.recuperaSenha),
     path("accounts/",include('django.contrib.auth.urls')),
     path("aluno/",include('core.aluno_url')),
@@ -33,5 +34,5 @@ urlpatterns = [
 
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'
 
-LOGIN_URL="login"
+LOGIN_URL="/"
 LOGIN_REDIRECT_URL="admin/"

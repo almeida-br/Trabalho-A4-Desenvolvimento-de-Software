@@ -1,3 +1,4 @@
+{% extends "index.html" %}
 {% load static %}
 <!doctype html>
 <html lang="en">
@@ -25,21 +26,16 @@
         <div class="login-2">
         Login
         </div>
-        <div class="container-1">
-          <span class="login-1">
-          login
-          </span>
-        </div>
-        <div class="container-2">
-          <span class="senha">
-          senha
-          </span>
-        </div>
-        <div class="container">
-          <span class="entrar">
-          Entrar
-          </span>
-        </div>
+         
+        {%block content%}
+        <form method="post">
+          {% csrf_token %}
+          {{form}}
+            <button type="submit" class="entrar">Entrar</button>
+        </form>
+        {%endblock%}
+      
+        
         <span class="esqueci-minha-senha">
         Esqueci minha senha
         </span>
