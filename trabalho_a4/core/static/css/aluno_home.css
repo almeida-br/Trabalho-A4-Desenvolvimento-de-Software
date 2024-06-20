@@ -224,6 +224,25 @@
   padding: 16.5px 16px 561px 15px;
   box-sizing: border-box;
 }
+
+
+.aluno-home .container-content{
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.aluno-home .content {
+  width: 30vw;
+  margin: 20px;
+}
+
+.aluno-home .content img{
+  width: 100%;
+}
+
 .aluno-home .disciplinas-do-dia {
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -232,21 +251,33 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-home .container-1 {
+
+.aluno-home .disciplinas{
   background: #90C3DB;
   position: relative;
   margin: 0 0 40px 2px;
   display: flex;
-  padding: 12.5px 1px 26.5px 0;
+  padding: 30px;
   width: 428px;
   box-sizing: border-box;
 }
-.aluno-home .rectangle-3 {
-  background: #90C3DB;
-  margin-right: 2px;
-  width: 428px;
-  height: 658px;
+
+.aluno-home .disciplinas table {
+  width: 100%;
 }
+
+.aluno-home .disciplinas td {
+  margin-left:20%;
+  margin-right:40%;
+}
+.aluno-home .disciplinas table .title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #616161;
+}
+
 .aluno-home .container-3 {
   margin: 75px 0 33px 0;
   display: flex;
