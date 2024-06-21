@@ -24,12 +24,14 @@ from core import views
 from core.forms import loginView
 
 urlpatterns = [
-    path("",loginView.as_view(template_name="login.html", content_type='text/plain')),
-    path("senha/",views.recuperaSenha),
-    path("accounts/",include('django.contrib.auth.urls')),
+    path("",views.index,name="login"),
+    path("senha/",views.recuperaSenha,name='senha'),
+    
     path("aluno/",include('core.aluno_url')),
     path("professor/",include('core.professor_url')),
-    path("admin/",include('core.admin_url'))
+    path("admin/",include('core.admin_url')),
+    path("manage/",admin.site.urls),
+    path("home/",views.redirect,name="home")
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'

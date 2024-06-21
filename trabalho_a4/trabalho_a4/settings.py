@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "core.apps"
+    "core"
 
 ]
 
@@ -57,7 +57,7 @@ ROOT_URLCONF = "trabalho_a4.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": ['trabalho_a4/core/templates'],
+        "DIRS": ['core/templates/pages'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -134,4 +134,4 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 LOGIN_URL = 'login'
-LOGIN_REDIRECT_URL = "<char:accessType>/" 
+LOGIN_REDIRECT_URL = "home/" 

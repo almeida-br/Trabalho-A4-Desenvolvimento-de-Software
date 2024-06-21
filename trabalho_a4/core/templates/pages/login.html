@@ -27,14 +27,13 @@
         Login
         </div>
          
-        {%block content%}
-        <form method="post">
+        <form method="post" action="{%url 'home'%}">
           {% csrf_token %}
-          {{form}}
-            <button type="submit" class="entrar">Entrar</button>
+          <input type="text" placeholder="Login" name="login" class="input-login" >
+          <input type="password" placeholder="Senha" name="senha" class="input-login" >
+          <input type="submit" class="entrar" value="Entrar">
         </form>
-        {%endblock%}
-      
+    
         
         <span class="esqueci-minha-senha">
         Esqueci minha senha

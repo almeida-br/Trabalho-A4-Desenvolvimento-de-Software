@@ -26,12 +26,14 @@
           <div class="descricao">
           Para recuperar a senha, informe seu endereço de email e matricula, que nós enviaremos um link para a alteração de senha. 
           </div>
-          <form>
+
+          <form method="post" action="{%url 'senha'%}">
             {% csrf_token %}
-            <input type="text" class="login-input" placeholder="matricula" name="matricula" >
-            <input type="text" class="login-input" placeholder="email" name="email" >
-            <button type="submit" class="entrar">Entrar</button>
+            <input type="text" placeholder="Matricula" name="matricula" class="input-login" >
+            <input type="text" placeholder="Email" name="email" class="input-login" >
+            <input type="submit" class="entrar" value="Entrar">
           </form>
+        
 
           <a href="/" class="link">Login</a>
       </div>

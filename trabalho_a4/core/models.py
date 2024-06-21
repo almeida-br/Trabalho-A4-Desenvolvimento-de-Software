@@ -8,11 +8,15 @@ class AccessType(models.TextChoices):
 
 class Login(models.Model):
     id=models.IntegerField(primary_key=True)
-    email=models.EmailField()
+    login=models.EmailField()
     password=models.CharField(max_length=50)
-    type=models.CharField(max_length=9,choices=AccessType.choices)
+    access=models.CharField(max_length=9,choices=AccessType.choices)
+
+    def getAccess(self):
+        return self.access
 
 class Endereco(models.Model):
+    id=models.IntegerField(unique=True,primary_key=True)
     logradouro=models.CharField(max_length=100)
     numero=models.IntegerField()
     bairro=models.CharField(max_length=100)
@@ -20,10 +24,10 @@ class Endereco(models.Model):
 
 class Professor(models.Model):
     matricula=models.IntegerField(max_length=10,primary_key=True,default="0000000000")
-    cpf=models.IntegerField(max_length=11, default="00000000000")
+    cpf=models.BigIntegerField(max_length=11, default="00000000000")
     nome=models.CharField(max_length=50)
-    endereco=models.OneToOneField(Endereco,on_delete=models.CASCADE,default=("n/a",00,"n/a","00"))
-    telefone=models.IntegerField(max_length=11,default=00000000000)
+    endereco=models.ForeignKey(Endereco,on_delete=models.CASCADE,default=(0000,"n/a",00,"n/a","00"))
+    telefone=models.CharField(max_length=11,default=00000000000)
     cursosMinistrados=[models.CharField]
     nivelEscolaridade=models.CharField
     formacao=[models.CharField]
@@ -41,17 +45,17 @@ class Disciplina(models.Model):
 
 class Aluno(models.Model):
     matricula=models.IntegerField(max_length=10,primary_key=True,default="0000000000")
-    cpf=models.IntegerField(max_length=11, default="00000000000")
+    cpf=models.BigIntegerField(max_length=11, default="00000000000")
     nome=models.CharField(max_length=200)
     endereco=models.OneToOneField(Endereco,on_delete=models.CASCADE,default=("n/a",00,"n/a","00"))
-    telefone=models.IntegerField(max_length=11,default=00000000000)
+    telefone=models.CharField(max_length=11,default=00000000000)
     dataAdmissao=models.DateField(auto_now_add=True)
-    turmaCod=models.IntegerField()
+    turmaCod=models.CharField(max_length=8)
     disciplinas=models.ManyToManyField(Disciplina)
     login=models.ForeignKey(Login,on_delete=models.CASCADE,default=00)
 
 class Turma(models.Model):
-    codigo=models.IntegerField(max_length=10)
+    codigo=models.CharField(max_length=8)
     periodo=models.IntegerField(max_length=2)
     sala=models.CharField(max_length=20)
     dataAbertura=models.DateField()

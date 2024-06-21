@@ -23,21 +23,14 @@
         <div class="login-form">
         Login
         </div>
-        <div class="container-1">
-          <span class="login-1">
-          login
-          </span>
-        </div>
-        <div class="container-2">
-          <span class="senha">
-          senha
-          </span>
-        </div>
-        <div class="container">
-          <span class="entrar">
-          Entrar
-          </span>
-        </div>
+          
+        <form method="post" action="{%url 'login'%}">
+          {% csrf_token %}
+          <input type="text" placeholder="Login" name="login" class="input-login" >
+          <input type="password" placeholder="Senha" name="senha" class="input-login" >
+          <input type="submit" class="entrar" value="Entrar">
+        </form>
+      
       
         <a href="senha/" class="esqueci-minha-senha">Esqueci minha senha</a>
       </div>

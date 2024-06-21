@@ -13,4 +13,7 @@ from django.core.asgi import get_asgi_application
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "trabalho_a4.settings")
 
+import django
+django.setup()
+
 application = get_asgi_application()
