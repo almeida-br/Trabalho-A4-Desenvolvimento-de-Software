@@ -102,62 +102,33 @@
         </div>
     
         <div class="container-info">
-              <div class="info">
-                <div class="class-info">
-                  <span class="field">
-                    Turma: Fes030131 
-                  </span>
-                  <span class="field">
-                    Sala: 06
-                  </span>
-                  <span class="field">
-                    Período: 4  
-                  </span>
-                  <span class="field">
-                    Quantidade de alunos: 20 
-                  </span>
-                </div>
-                <div class="class-info">
-                  <span class="field">
-                    Turma: Fes030131 
-                  </span>
-                  <span class="field">
-                    Sala: 06
-                  </span>
-                  <span class="field">
-                    Período: 4  
-                  </span>
-                  <span class="field">
-                    Quantidade de alunos: 20 
-                  </span>
-                </div>
-                <div class="class-info">
-                  <span class="field">
-                    Turma: Fes030131 
-                  </span>
-                  <span class="field">
-                    Sala: 06
-                  </span>
-                  <span class="field">
-                    Período: 4  
-                  </span>
-                  <span class="field">
-                    Quantidade de alunos: 20 
-                  </span>
-                </div>
+          {%for item in turmas%}
+          <div class="info">
+            <div class="class-info">
+              <span class="field">
+              Turma: {{item.codigo}}
+              </span>
+              <span class="field">
+              Sala: {{item.sala}}
+              </span>
+              <span class="field">
+                Período: {{item.periodo}}
+              </span>
+              <span class="field">
+                Quantidade de alunos: {{item.quantidadeAlunos}}
+              </span>
+            </div>
+            <div class="edit">
+              <div class="edit-icon">
+                <a href="/admin/exibir/turma/{{item.codigo}}/">
+                <img class="icon" src="{% static 'images/icon-edit.png'%}" />
+                </a>
               </div>
-              <div class="edit">
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-              </div>
+          </div>
+          </div>
+          {%endfor%}
         </div>
+
 
 
         <div class="container-buttons">
@@ -165,17 +136,10 @@
                 <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
               </div>
               <div class="container-button">
+                <a href="/admin/adicionar_turma">
                   <img class="vector-1" src="{% static 'images/mais.png' %}" />
-                  <span>
-                    <form method="post">
-                      {% csrf_token %}
-                      {{form.as_p}}
-                      <input type="submit" value="Adicionar">
-                    </form>
-                    </span>
-              </div>
-              <div class="fade">
-              </div>            
+                </a>
+              </div>          
         </div>
         <div class="footer">
         </div>

@@ -113,62 +113,39 @@
         </div>
 
         <div class="container-info">
+          {%for item in professores%}
           <div class="info">
             <div class="class-info">
               <span class="field">
-              Matricula: 234510909
+              Matrícula: {{item.matricula}}
               </span>
               <span class="field">
-              Nome: Ciclaninho Pereira Gomes
+              Nome: {{item.nome}}
               </span>
               <span class="field">
-              Escolaridade: Mestrado
+                Escolaridade: {{item.nivelEscolaridade}}
               </span>
             </div>
-            <div class="class-info">
-              <span class="field">
-              Matricula: 234510909
-              </span>
-              <span class="field">
-              Nome: Ciclaninho Pereira Gomes
-              </span>
-              <span class="field">
-              Escolaridade: Mestrado
-              </span>
-            </div>
-            <div class="class-info">
-              <span class="field">
-              Matricula: 234510909
-              </span>
-              <span class="field">
-              Nome: Ciclaninho Pereira Gomes
-              </span>
-              <span class="field">
-              Escolaridade: Mestrado
-              </span>
-            </div>
+            <div class="edit">
+              <div class="edit-icon">
+                <a href="/admin/exibir/professor/{{item.matricula}}/">
+                <img class="icon" src="{% static 'images/icon-edit.png'%}" />
+                </a>
+              </div>
           </div>
-          <div class="edit">
-            <div class="edit-icon">
-              <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-            </div>
-            <div class="edit-icon">
-              <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-            </div>
-            <div class="edit-icon">
-              <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-            </div>
           </div>
+          {%endfor%}
         </div>
+
         <div class="container-buttons">
           <div class="container-button">
             <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
           </div>
           <div class="container-button">
+            <a href="/admin/adicionar_professor">
               <img class="vector-1" src="{% static 'images/mais.png' %}" />
-          </div>
-          <div class="fade">
-          </div>            
+            </a>
+          </div>           
         </div>
         <div class="footer">
         </div>

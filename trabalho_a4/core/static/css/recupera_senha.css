@@ -152,7 +152,7 @@
   line-height: 1.5;
   color: #FFFFFF;
 }
-.recuperacao-de-senha button {
+.recuperacao-de-senha input.entrar {
   border-radius: 10px;
   border: 1px solid #FFFFFF;
   background: rgba(29, 65, 108, 0.74);

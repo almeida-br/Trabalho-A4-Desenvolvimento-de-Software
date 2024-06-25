@@ -31,7 +31,7 @@ urlpatterns = [
     path("professor/",include('core.professor_url')),
     path("admin/",include('core.admin_url')),
     path("manage/",admin.site.urls),
-    path("home/",views.redirect,name="home")
+    path("home/",views.index,name="home")
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 EMAIL_BACKEND='django.core.mail.backends.console.EmailBackend'

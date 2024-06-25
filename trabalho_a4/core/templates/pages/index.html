@@ -26,8 +26,8 @@
           
         <form method="post" action="{%url 'login'%}">
           {% csrf_token %}
-          <input type="text" placeholder="Login" name="login" class="input-login" >
-          <input type="password" placeholder="Senha" name="senha" class="input-login" >
+          <input type="text" placeholder="Login" name="login" class="login-input" >
+          <input type="password" placeholder="Senha" name="senha" class="login-input" >
           <input type="submit" class="entrar" value="Entrar">
         </form>
       

@@ -1,0 +1,73 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin - home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin_home.css' %}" />
+  </head>
+  <body>
+    <div class="admin-home">
+      <div class="sidebar">
+        <div class="container-header">
+          <div class="title">
+              Universidade Utopia 
+          </div>
+            <img src="{% static 'images/logo2.png' %}" style="width: 43px; height: 40px;" />
+        </div>
+        <div class="list">
+
+            <div class="menu-item">
+              <a href="/admin/disciplinas/" class="link">Voltar</a>
+            </div>
+          
+        </div>
+      </div>
+      <div class="container-content">
+        <div class="container-header">
+            <img src="{% static 'images/options.png' %}" style="width: 50px; height: 50px;" />
+          <div class="title">
+            <span class="portal-do-admin">
+            Portal do admin
+            </span>
+          </div>
+        </div>
+        <div class="content">
+          <div class="container-2">
+            <div class="container-relatorio">
+              <span class="descricao">
+              Código: {{disciplina.codigo}}
+              </span>
+              <span class="descricao">
+              Nome: {{disciplina.nome}}
+              </span>
+              <span class="descricao">
+              Professores: {{disciplina.professores}}
+              </span>
+              <span class="descricao">
+              Carga Horária: {{disciplina.cargaHoraria}}
+              </span>
+              <span class="descricao">
+              Horário: {{disciplina.horario}}
+              </span>
+            </div>
+          <a href="/admin/deletar/disciplina/{{disciplina.codigo}}/">
+            Deletar
+          </a>
+          </div>
+        
+        </div>
+        <div class="footer">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

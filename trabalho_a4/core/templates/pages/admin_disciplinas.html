@@ -114,71 +114,39 @@
         </div>
     
         <div class="container-info">
-              <div class="info">
-                <div class="class-info">
-                  <span class="field">
-                  Disciplina: Desenvolvimento Web
-                  </span>
-                  <span class="field">
-                    Turno: Manhã 
-                  </span>
-                  <span class="field">
-                    Professor: Ciclaninho P. 
-                  </span>
-                </div>
-                <div class="class-info">
-                  <span class="field">
-                  Disciplina: Desenvolvimento Web
-                  </span>
-                  <span class="field">
-                    Turno: Manhã 
-                  </span>
-                  <span class="field">
-                    Professor: Ciclaninho P. 
-                  </span>
-                </div>
-                <div class="class-info">
-                  <span class="field">
-                  Disciplina: Desenvolvimento Web
-                  </span>
-                  <span class="field">
-                    Turno: Manhã 
-                  </span>
-                  <span class="field">
-                    Professor: Ciclaninho P. 
-                  </span>
-                </div>
+          {%for item in disciplinas%}
+          <div class="info">
+            <div class="class-info">
+              <span class="field">
+              Disciplina: {{item.nome}}
+              </span>
+              <span class="field">
+              Carga horária: {{item.cargaHoraria}}
+              </span>
+              <span class="field">
+                Professor: {{item.professores}}
+              </span>
+            </div>
+            <div class="edit">
+              <div class="edit-icon">
+                <a href="/admin/exibir/disciplina/{{item.codigo}}/">
+                <img class="icon" src="{% static 'images/icon-edit.png'%}" />
+                </a>
               </div>
-              <div class="edit">
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-                <div class="edit-icon">
-                  <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-                </div>
-              </div>
+          </div>
+          </div>
+          {%endfor%}
         </div>
 
-
         <div class="container-buttons">
-              <div class="container-button">
-                <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
-              </div>
-              <div class="container-button">
-                  <img class="vector-1" src="{% static 'images/mais.png' %}" />
-                  <span>
-                    <form method="post">
-                      {% csrf_token %}
-                      {{form.as_p}}
-                      <input type="submit" value="Adicionar">
-                    </form>
-                    </span>
-              </div>
-              <div class="fade">
-              </div>            
+          <div class="container-button">
+            <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
+          </div>
+          <div class="container-button">
+            <a href="/admin/adicionar_disciplina/">
+              <img class="vector-1" src="{% static 'images/mais.png' %}" />
+            </a>
+          </div>           
         </div>
         <div class="footer">
         </div>

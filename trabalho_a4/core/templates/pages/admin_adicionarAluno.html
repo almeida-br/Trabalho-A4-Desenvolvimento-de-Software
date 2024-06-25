@@ -36,7 +36,7 @@
               <div class="vector">
                 <img src="{% static 'images/aluno.png' %}" style="width: 25px; height: 25px;" />
               </div>
-              <a href="" class="link">Alunos</a>
+              <a href="/admin/alunos/" class="link">Alunos</a>
             </div>
           
           <div class="menu-item">
@@ -78,64 +78,23 @@
             </span>
           </div>
         </div>
-        <div class="content-title">
-          Alunos
-        </div>
-        <div class="container-search">
-          <div class="busca">
-            <span class="buscar">
-              Buscar
-            </span>
-          </div>
-          <div class="filter">
-            <span class="text">
-                Turma
-            </span>
-              <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Data de Admissão
-            </span>
-            <img class="icon-filter" src="{%static 'images/calendario.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Disciplina
-            </span>
-            <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-        </div>
-    
-        <div class="container-info">
-          
+       
+        <div class="container-info"> 
               <form method="post" action="{%url 'adicionar_aluno'%}">
                 {% csrf_token %}
-                <input type="text" name="matricula" placeholder="Matricula">
-                <input type="text" name="cpf" placeholder="CPF">
-                <input type="text" name="nome" placeholder="Nome">
-                <input type="tel" name="telefone" placeholder="Telefone">
-                <input type="date" name="data" placeholder="Data">
-                <input type="text" name="turma" placeholder="Código da turma">
-                <input type="text" name="end_logradouro" placeholder="Endereço">
-                <input type="text" name="end_numero" placeholder="Número">
-                <input type="text" name="end_bairro" placeholder="Bairro">
-                <input type="text" maxlength="2" name="end_uf" placeholder="Estado">
-                <input type="submit" name="adicionar" value="Adicionar">
+                {% for field in alunoForm %}
+                  <div class="form-label">
+                    {{ field.label_tag }}
+                  </div>
+                  <div class="form-group">
+                  {{ field }}
+                  </div>
+                {% endfor %}
+                
+                <input type="submit" name="adicionar" class="entrar" value="Adicionar">
               </form>
         </div>
 
-
-        <div class="container-buttons">
-          <div class="container-button">
-            <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
-          </div>
-          <div class="container-button">
-              <img class="vector-1" src="{% static 'images/mais.png' %}" />
-          </div>
-          <div class="fade">
-          </div>            
-    </div>
         <div class="footer">
         </div>
       </div>        

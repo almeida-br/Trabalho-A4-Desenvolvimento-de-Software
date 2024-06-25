@@ -97,6 +97,7 @@
   height: 100%;
   width: 80vw;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .admin-alunos .container-content .container-header {
@@ -210,15 +211,6 @@
   box-sizing: border-box;
 }
 
-.admin-alunos .fade {
-  background: linear-gradient(170.1deg, rgba(255, 255, 255, 0) -23.2%, #FFFFFF 43.68%, #FFFFFF 93.5%);
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  width: 908px;
-  height: 69px;
-}
-
 .admin-alunos .footer {
   background: linear-gradient(90deg, rgba(4, 51, 74, 0.95), rgba(4, 58, 84, 0.95), rgba(9, 121, 176, 0.95));
   width: 100%;
@@ -286,20 +278,20 @@
   background: #D9D9D9;
   position: relative;
   margin-bottom: 3px;
+  margin-right: 10px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 10px 36.1px 9px 20.2px;
-  width: 853px;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .admin-alunos .info {
-  margin-right: 6px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  width: 853px;
+  width: auto;
   box-sizing: border-box;
 }
 
@@ -330,7 +322,7 @@
 .admin-alunos .container-info {
   margin: 0 61px 3px 61px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: flex-start;
   width: 908px;
   box-sizing: border-box;
@@ -341,3 +333,49 @@
   height: 50px;
 }
 
+.login form{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login form .form-group {
+  background: #F6F6F6;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 26px;
+  padding: 12px 15px 7px 15px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+
+.login .form-label {
+  margin-left: 1px;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.47);
+}
+
+.login input.entrar {
+  border-radius: 10px;
+  border: 1px solid #FFFFFF;
+  background: rgba(29, 65, 108, 0.74);
+  position: relative;
+  margin-bottom: 36px;
+  display: flex;
+  padding: 8px;
+  width:300px;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}

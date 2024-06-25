@@ -1,0 +1,102 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin - alunos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/admin_disciplinas.css' %}" />
+  </head>
+  <body>
+    <div class="admin-disciplinas">        
+      <div class="sidebar">
+        <div class="container-header">
+          <div class="title">
+              Universidade Utopia 
+          </div>
+            <img src="{% static 'images/logo2.png' %}" style="width: 43px; height: 40px;" />
+        </div>
+        <div class="list">
+
+            <div class="menu-item">
+              <div class="vector">
+                <img src="{% static 'images/home.png' %}" style="width: 25px; height: 25px;" />
+              </div>
+              <a href="/admin/" class="link">Home</a>
+            </div>
+          
+            <div class="menu-item">
+              <div class="vector">
+                <img src="{% static 'images/aluno.png' %}" style="width: 25px; height: 25px;" />
+              </div>
+              <a href="/admin/alunos/" class="link">Alunos</a>
+            </div>
+          
+          <div class="menu-item">
+            <div class="vector">
+              <img src="{% static 'images/professores.png' %}" style="width: 25px; height: 25px;" />
+            </div>
+            <a href="/admin/professores/" class="link">Professores</a>
+          </div>
+
+          <div class="menu-item">
+            <div class="vector">
+              <img src="{% static 'images/disciplinas.png' %}" style="width: 25px; height: 25px;" />
+            </div>
+            <a href="/admin/disciplinas/" class="link">Disciplinas</a>
+          </div>
+
+          <div class="menu-item">
+            <div class="vector">
+              <img src="{% static 'images/turmas.png' %}" style="width: 25px; height: 25px;" />
+            </div>
+            <a href="/admin/turmas/" class="link">Turmas</a>
+          </div>
+
+          <div class="menu-item">
+            <div class="vector">
+              <img src="{% static 'images/relatorios.png' %}" style="width: 25px; height: 25px;" />
+            </div>
+            <a href="/admin/relatorios/" class="link">Relatórios</a>
+          </div>
+        </div>
+      </div>
+               
+      <div class="container-content">
+        <div class="container-header">
+          <img src="{% static 'images/options.png' %}" style="width: 50px; height: 50px;" />
+          <div class="title">
+            <span class="portal-do-admin">
+            Portal do admin
+            </span>
+          </div>
+        </div>
+       
+        <div class="container-info"> 
+              <form method="post" action="{%url 'adicionar_disciplina'%}">
+                {% csrf_token %}
+                {% for field in disciplinaForm %}
+                  <div class="form-label">
+                    {{ field.label_tag }}
+                  </div>
+                  <div class="form-group">
+                  {{ field }}
+                  </div>
+                {% endfor %}
+                <input type="submit" name="adicionar" class="entrar" value="Adicionar">
+              </form>
+        </div>
+
+        <div class="footer">
+        </div>
+      </div>        
+    </div>
+  </body>
+</html>

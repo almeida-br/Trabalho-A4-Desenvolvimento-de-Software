@@ -60,7 +60,7 @@
   color: rgba(59, 59, 59, 0.54);
 }
 
-.login form input.login-input {
+.login form input {
   background: #F6F6F6;
   border-radius: 10px;
   position: relative;
@@ -70,7 +70,7 @@
   box-sizing: border-box;
 }
 
-.login button {
+.login input.entrar {
   border-radius: 10px;
   border: 1px solid #FFFFFF;
   background: rgba(29, 65, 108, 0.74);

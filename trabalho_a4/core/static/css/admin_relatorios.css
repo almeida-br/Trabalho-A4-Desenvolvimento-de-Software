@@ -83,6 +83,7 @@
   height: 100%;
   width: 80vw;
   box-sizing: border-box;
+  justify-content: space-between;
 }
 
 .admin-relatorios .container-content .container-header {
