@@ -8,7 +8,7 @@ urlpatterns = [
     path("professores/",views.admin_Professores, name="admin_professores"),
     path("disciplinas/",views.admin_Disciplinas, name="admin_disciplinas"),
     path("turmas/",views.admin_Turmas, name="admin_turmas"),
-    path("relatorios/",views.admin_Relatorios, name="admin_relatorios"),
+    path("relatorios/",include('core.relatorio_url')),
     path("adicionar_aluno/",views.admin_AdicionarAluno, name="adicionar_aluno"),
     path("adicionar_professor/",views.admin_AdicionarProfessor, name="adicionar_professor"),
     path("adicionar_turma/",views.admin_AdicionarTurma, name="adicionar_turma"),

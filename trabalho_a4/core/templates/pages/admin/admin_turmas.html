@@ -5,17 +5,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Admin - disciplinas</title>
+    <title>Admin - turmas</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/admin_disciplinas.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/admin/admin_turmas.css' %}" />
   </head>
   <body>
-    <div class="admin-disciplinas">        
+    <div class="admin-turmas">        
       <div class="sidebar">
         <div class="container-header">
           <div class="title">
@@ -50,14 +50,14 @@
             <div class="vector">
               <img src="{% static 'images/disciplinas.png' %}" style="width: 25px; height: 25px;" />
             </div>
-            <a href="" class="link">Disciplinas</a>
+            <a href="/admin/disciplinas" class="link">Disciplinas</a>
           </div>
 
           <div class="menu-item">
             <div class="vector">
               <img src="{% static 'images/turmas.png' %}" style="width: 25px; height: 25px;" />
             </div>
-            <a href="/admin/turmas/" class="link">Turmas</a>
+            <a href="" class="link">Turmas</a>
           </div>
 
           <div class="menu-item">
@@ -79,7 +79,7 @@
           </div>
         </div>
         <div class="content-title">
-          Disciplinas
+          Turmas
         </div>
         <div class="container-search">
           <div class="busca">
@@ -89,47 +89,38 @@
           </div>
           <div class="filter">
             <span class="text">
-                Turma
+                Sala
             </span>
               <img class="icon-filter" src="{%static 'images/seta.png'%}" />
           </div>
           <div class="filter">
             <span class="text">
-              Carga horária 
-            </span>
-            <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Turno
-            </span>
-            <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Professor
+              Período 
             </span>
             <img class="icon-filter" src="{%static 'images/seta.png'%}" />
           </div>
         </div>
     
         <div class="container-info">
-          {%for item in disciplinas%}
+          {%for item in turmas%}
           <div class="info">
             <div class="class-info">
               <span class="field">
-              Disciplina: {{item.nome}}
+              Turma: {{item.codigo}}
               </span>
               <span class="field">
-              Carga horária: {{item.cargaHoraria}}
+              Sala: {{item.sala}}
               </span>
               <span class="field">
-                Professor: {{item.professores}}
+                Período: {{item.periodo}}
+              </span>
+              <span class="field">
+                Quantidade de alunos: {{item.quantidadeAlunos}}
               </span>
             </div>
             <div class="edit">
               <div class="edit-icon">
-                <a href="/admin/exibir/disciplina/{{item.codigo}}/">
+                <a href="/admin/exibir/turma/{{item.codigo}}/">
                 <img class="icon" src="{% static 'images/icon-edit.png'%}" />
                 </a>
               </div>
@@ -138,15 +129,17 @@
           {%endfor%}
         </div>
 
+
+
         <div class="container-buttons">
-          <div class="container-button">
-            <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
-          </div>
-          <div class="container-button">
-            <a href="/admin/adicionar_disciplina/">
-              <img class="vector-1" src="{% static 'images/mais.png' %}" />
-            </a>
-          </div>           
+              <div class="container-button">
+                <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
+              </div>
+              <div class="container-button">
+                <a href="/admin/adicionar_turma">
+                  <img class="vector-1" src="{% static 'images/mais.png' %}" />
+                </a>
+              </div>          
         </div>
         <div class="footer">
         </div>

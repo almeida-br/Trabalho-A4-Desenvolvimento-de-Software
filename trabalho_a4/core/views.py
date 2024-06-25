@@ -1,6 +1,8 @@
 import random
-from django.http import HttpResponse
+from django.template.loader import render_to_string
+from django.http import FileResponse, HttpResponse
 from django.shortcuts import render,redirect
+from prompt_toolkit import HTML
 from .forms import *
 from django.contrib.auth.decorators import login_required
 from core.models import *
@@ -50,7 +52,7 @@ def recuperaSenha(request):
 
 #páginas Admin
 def adminHome(request):
-    return render(request,'pages/admin_home.html')
+    return render(request,'pages/admin/admin_home.html')
 
 
 def exibirAluno(request,id):
@@ -59,26 +61,26 @@ def exibirAluno(request,id):
     context={
         'aluno':aluno,
     }
-    return render(request,"exibir_aluno.html",context)
+    return render(request,"pages/admin/exibir/exibir_aluno.html",context)
 
 def exibirProfessor(request,id):
     professor=Professor.objects.get(matricula=id)
     context={
         'professor':professor
     }
-    return render(request,"exibir_professor.html",context)
+    return render(request,"pages/admin/exibir/exibir_professor.html",context)
 
 def exibirDisciplina(request,id):
     context={
         'disciplina':Disciplina.objects.get(codigo=id)
     }
-    return render(request,"exibir_disciplina.html",context)
+    return render(request,"pages/admin/exibir/exibir_disciplina.html",context)
 
 def exibirTurma(request,id):
     context={
         'turma':Turma.objects.get(codigo=id)
     }
-    return render(request,"exibir_turma.html",context)
+    return render(request,"pages/admin/exibir/exibir_turma.html",context)
 
 def deleteAluno(request,matricula):
     Aluno.objects.get(matricula=matricula).delete()
@@ -111,7 +113,7 @@ def admin_AdicionarAluno(request):
     else:
         alunoForm=AlunoForm(prefix='aluno')
       
-    return render(request,'pages/admin_adicionarAluno.html', {'alunoForm': alunoForm})
+    return render(request,'pages/admin/adicionar/admin_adicionarAluno.html', {'alunoForm': alunoForm})
 
 def admin_AdicionarProfessor(request):
     if request.method=="POST":
@@ -123,7 +125,7 @@ def admin_AdicionarProfessor(request):
     
     else:
         professorForm=ProfessorForm(prefix='professor')
-    return render(request,'pages/admin_adicionarProfessor.html', {'professorForm': professorForm})
+    return render(request,'pages/admin/adicionar/admin_adicionarProfessor.html', {'professorForm': professorForm})
 
 def admin_AdicionarTurma(request):
     if request.method=="POST":
@@ -135,7 +137,7 @@ def admin_AdicionarTurma(request):
     
     else:
         turmaForm=TurmaForm(prefix='turma')
-    return render(request,'pages/admin_adicionarTurma.html', {'turmaForm': turmaForm})
+    return render(request,'pages/admin/adicionar/admin_adicionarTurma.html', {'turmaForm': turmaForm})
 
 def admin_AdicionarDisciplina(request):
     if request.method=="POST":
@@ -147,11 +149,64 @@ def admin_AdicionarDisciplina(request):
     
     else:
         disciplinaForm=DisciplinaForm(prefix='disciplina')
-    return render(request,'pages/admin_adicionarDisciplina.html', {'disciplinaForm': disciplinaForm})
+    return render(request,'pages/admin/adicionar/admin_adicionarDisciplina.html', {'disciplinaForm': disciplinaForm})
 
 def admin_AdicionarRelatorio(request):
   
-    return render(request,'pages/admin_adicionarRelatorio.html')
+    return render(request,'pages/admin/adicionar/admin_adicionarRelatorio.html')
+
+
+def alunoRelatorio(request):
+    # Fetch the data you want to export
+    alunos = Aluno.objects.all()
+
+    # Render the HTML content
+    html_content = render_to_string('pages/pdf_template.html', {'alunos': alunos})
+
+    # Convert HTML to PDF
+    pdf = HTML(string=html_content).write_pdf()
+
+    # Return the PDF as a response
+    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+
+def professorRelatorio(request):
+    # Fetch the data you want to export
+    professores = Professor.objects.all()
+
+    # Render the HTML content
+    html_content = render_to_string('pages/pdf_template.html', {'professores': professores})
+
+    # Convert HTML to PDF
+    pdf = HTML(string=html_content).write_pdf()
+
+    # Return the PDF as a response
+    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+
+def disciplinaRelatorio(request):
+    # Fetch the data you want to export
+    disciplinas = Disciplina.objects.all()
+
+    # Render the HTML content
+    html_content = render_to_string('pages/pdf_template.html', {'disciplinas': disciplinas})
+
+    # Convert HTML to PDF
+    pdf = HTML(string=html_content).write_pdf()
+
+    # Return the PDF as a response
+    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+
+def turmaRelatorio(request):
+    # Fetch the data you want to export
+    turmas = Turma.objects.all()
+
+    # Render the HTML content
+    html_content = render_to_string('pages/pdf_template.html', {'turmas': turmas})
+
+    # Convert HTML to PDF
+    pdf = HTML(string=html_content).write_pdf()
+
+    # Return the PDF as a response
+    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
 
 
 def admin_Alunos(request):
@@ -159,7 +214,7 @@ def admin_Alunos(request):
     context = {
     'alunos': alunos,
     }
-    return render(request,'pages/admin_alunos.html',context)
+    return render(request,'pages/admin/admin_alunos.html',context)
 
 
 def admin_Professores(request):
@@ -167,49 +222,49 @@ def admin_Professores(request):
     context = {
     'professores': professores,
     }
-    return render(request,'pages/admin_professores.html',context)
+    return render(request,'pages/admin/admin_professores.html',context)
 
 def admin_Disciplinas(request):
     disciplinas=Disciplina.objects.all().values()
     context = {
     'disciplinas': disciplinas,
     }
-    return render(request,'pages/admin_disciplinas.html',context)
+    return render(request,'pages/admin/admin_disciplinas.html',context)
 
 def admin_Turmas(request):
     turmas=Turma.objects.all().values()
     context = {
     'turmas': turmas
     }
-    return render(request,'pages/admin_turmas.html',context)
+    return render(request,'pages/admin/admin_turmas.html',context)
 
 def admin_Relatorios(request):
-    return render(request,'pages/admin_relatorios.html')
+    return render(request,'pages/admin/admin_relatorios.html')
 
 #páginas Aluno
 
 def alunoHome(request):
-    return render(request,'pages/aluno_home.html')
+    return render(request,'pages/aluno/aluno_home.html')
 
 def aluno_Quadro(request):
-    return render(request,'pages/aluno_quadro_horarios.html')
+    return render(request,'pages/aluno/aluno_quadro_horarios.html')
 
 def aluno_Disciplinas(request):
-    return render(request,'pages/aluno_disciplinas.html')
+    return render(request,'pages/aluno/aluno_disciplinas.html')
 
 def aluno_Solicitacoes(request):
-    return render(request,'pages/aluno_solicitacoes.html')
+    return render(request,'pages/aluno/aluno_solicitacoes.html')
 
 #páginas Professor
 
 def professorHome(request):
-    return render(request,'pages/professor_home.html')
+    return render(request,'pages/professor/professor_home.html')
 
 def professor_Turmas(request):
-    return render(request,'pages/professor_turmas.html')
+    return render(request,'pages/professor/professor_turmas.html')
 
 def professor_Disciplinas(request):
-    return render(request,'pages/professor_disciplinas.html')
+    return render(request,'pages/professor/professor_disciplinas.html')
 
 def professor_Solicitacoes(request):
-    return render(request,'pages/professor_solicitacoes.html')
+    return render(request,'pages/professor/professor_solicitacoes.html')

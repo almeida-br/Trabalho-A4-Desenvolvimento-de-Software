@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{% static 'css/admin_home.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/admin/admin_home.css' %}" />
   </head>
   <body>
     <div class="admin-home">
@@ -26,7 +26,7 @@
         <div class="list">
 
             <div class="menu-item">
-              <a href="/admin/professores/" class="link">Voltar</a>
+              <a href="/admin/disciplinas/" class="link">Voltar</a>
             </div>
           
         </div>
@@ -44,28 +44,22 @@
           <div class="container-2">
             <div class="container-relatorio">
               <span class="descricao">
-              Matrícula: {{professor.matricula}}
+              Código: {{disciplina.codigo}}
               </span>
               <span class="descricao">
-              Cpf: {{professor.cpf}}
+              Nome: {{disciplina.nome}}
               </span>
               <span class="descricao">
-              Nome: {{professor.nome}}
+              Professores: {{disciplina.professores}}
               </span>
               <span class="descricao">
-              Telefone: {{professor.telefone}}
+              Carga Horária: {{disciplina.cargaHoraria}}
               </span>
               <span class="descricao">
-              Nível escolaridade: {{professor.nivelEscolaridade}}
-              </span>
-              <span class="descricao">
-                Data de contratação: {{professor.dataContratacao}}
-              </span>
-              <span class="descricao">
-                Disciplinas ministradas: {{professor.disciplinasMinistradas}}
+              Horário: {{disciplina.horario}}
               </span>
             </div>
-          <a href="/admin/deletar/professor/{{professor.matricula}}/">
+          <a href="/admin/deletar/disciplina/{{disciplina.codigo}}/">
             Deletar
           </a>
           </div>

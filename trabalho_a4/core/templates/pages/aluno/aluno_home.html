@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Professor - home</title>
+    <title>Aluno - home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/professor_home.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/aluno/aluno_home.css' %}" />
   </head>
   <body>
-    <div class="professor-home">
+    <div class="aluno-home">
       <div class="container-header">
         <div class="container-logo">
           <span class="title">
@@ -31,7 +31,6 @@
         </div>
       </div>
       <div class="container-main">
-
         <div class="sidebar">
           <div class="list">
           <div class="menu-item">
@@ -40,7 +39,7 @@
           </div>
             <div class="menu-item">
               <img src="{% static 'images/aluno.png' %}" style="width: 25px; height: 25px;" />
-              <a href="turmas/" class="link">Turmas</a>
+              <a href="quadro_horarios/" class="link">Quadro de horários</a>
             </div>
           <div class="menu-item">
               <img src="{% static 'images/disciplinas.png' %}" style="width: 25px; height: 25px;" />
@@ -53,49 +52,59 @@
         </div>
         </div>
         <div class="container-content">
-          <div class="topics">
-            <div class="content">
-            <div class="title">
-              Turmas
-            </div>
-            <div class="list">
-              <div class="item">
-                Fes030131
-              </div>
-                <div class="item">
-                Gol041222
-                </div>
-              <div class="item">
-                R051224
-              </div>
-              <div class="item">
-                EP020125
-              </div>
-            </div>
-            </div>
-
-            <div class="content">
-            <div class="title">
-              Disciplina
-            </div>
-            <div class="list">
-              <div class="item">
-                Jogos Digitais
-              </div>
-              <div class="item">
-                Desenvolvimento Web
-              </div>
-            </div>
-            </div>
+          <div class="content">
+          <div class="disciplinas">
+            <span class="disciplinas-do-dia">
+            Disciplinas do dia: 
+            </span>
+            
           </div>
-            <div class="anuncio-importante-1">
-              <img src="{%static 'images/anuncio_2.png'%}">
-            </div>
-
-          <div class="footer">
+          <div class="disciplinas">
+            <table>
+              <tr class="title">
+                <td>Disciplina</td>
+                <td>Horas</td>
+                <td>Professor</td>
+              </tr>
+              <tr>
+                <td>Estrutura de Dados</td>
+                <td>07:30</td>
+                <td>Fulano</td>
+              </tr>
+              <tr>
+                <td>Estrutura de Dados</td>
+                <td>08:20</td>
+                <td>Fulano</td>
+              </tr>
+              <tr>
+                <td>Desenvolvimento Web</td>
+                <td>09:10</td>
+                <td>Fulano</td>
+              </tr>
+              <tr>
+                <td>Desenvolvimento Web</td>
+                <td>10:10</td>
+                <td>Fulano</td>
+              </tr>
+              <tr>
+                <td>Jogos Digitais</td>
+                <td>11:00</td>
+                <td>Fulano</td>
+              </tr>
+              <tr>
+                <td>Jogos Digitais</td>
+                <td>12:20</td>
+                <td>Fulano</td>
+              </tr>
+            </table>
           </div>
-        </div>
-
+          </div>
+          <div class="content">
+            <img src="{%static 'images/content-1.png'%}"
+          </div>
+          <div class="content">
+            <img src="{%static 'images/anuncio_1.png'%}"
+          </div>
         </div>
       </div>
     </div>

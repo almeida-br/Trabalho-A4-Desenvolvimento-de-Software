@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exported Data</title>
+</head>
+<body>
+    <h1>Data Export</h1>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <!-- Add more columns as needed -->
+        </tr>
+        {% for obj in alunos %}
+        <tr>
+            <td>{{ obj.matricula }}</td>
+            <td>{{ obj.nome }}</td>
+            <!-- Display more fields as needed -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

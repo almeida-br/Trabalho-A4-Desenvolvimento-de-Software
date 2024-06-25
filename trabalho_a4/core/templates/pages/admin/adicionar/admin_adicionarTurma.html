@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/admin_alunos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/admin/admin_turmas.css' %}" />
   </head>
   <body>
-    <div class="admin-alunos">        
+    <div class="admin-turmas">        
       <div class="sidebar">
         <div class="container-header">
           <div class="title">
@@ -80,9 +80,9 @@
         </div>
        
         <div class="container-info"> 
-              <form method="post" action="{%url 'adicionar_aluno'%}">
+              <form method="post" action="{%url 'adicionar_turma'%}">
                 {% csrf_token %}
-                {% for field in alunoForm %}
+                {% for field in turmaForm %}
                   <div class="form-label">
                     {{ field.label_tag }}
                   </div>
@@ -90,7 +90,7 @@
                   {{ field }}
                   </div>
                 {% endfor %}
-                
+              
                 <input type="submit" name="adicionar" class="entrar" value="Adicionar">
               </form>
         </div>

@@ -12,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/admin_alunos.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/admin/admin_professores.css' %}" />
   </head>
   <body>
-    <div class="admin-alunos">        
+    <div class="admin-professores">        
       <div class="sidebar">
         <div class="container-header">
           <div class="title">
@@ -36,7 +36,7 @@
               <div class="vector">
                 <img src="{% static 'images/aluno.png' %}" style="width: 25px; height: 25px;" />
               </div>
-              <a href="" class="link">Alunos</a>
+              <a href="/admin/alunos/" class="link">Alunos</a>
             </div>
           
           <div class="menu-item">
@@ -78,77 +78,24 @@
             </span>
           </div>
         </div>
-        <div class="content-title">
-          Alunos
-        </div>
-        <div class="container-search">
-          <div class="busca">
-            <span class="buscar">
-              Buscar
-            </span>
-          </div>
-          <div class="filter">
-            <span class="text">
-                Turma
-            </span>
-              <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Data de Admissão
-            </span>
-            <img class="icon-filter" src="{%static 'images/calendario.png'%}" />
-          </div>
-          <div class="filter">
-            <span class="text">
-              Disciplina
-            </span>
-            <img class="icon-filter" src="{%static 'images/seta.png'%}" />
-          </div>
-        </div>
-    
-        <div class="container-info">
-          {% csrf_token %}
-          {%for item in alunos%}
-          <div class="info">
-            <div class="class-info">
-              <span class="field">
-              Matricula: {{item.matricula}}
-              </span>
-              <span class="field">
-              Nome: {{item.nome}}
-              </span>
-              <span class="field">
-                Turma: {{item.turmaCod}}
-              </span>
-            </div>
-            <div class="edit">
-            <div class="edit-icon">
-              <a href="/admin/exibir/aluno/{{item.matricula}}/">
-              <img class="icon" src="{% static 'images/icon-edit.png'%}" />
-              </a>
-            </div>
-          </div>
-          </div>
-          {%endfor%}
-        </div>
-           
-        <div class="container-buttons">
-          <div class="container-button">
-            <img class="vector-1" src="{% static 'images/icon-create-rel.png' %}" />
-          </div>
-          <div class="container-button">
-            <a href="/admin/adicionar_aluno/">
-              <img class="vector-1" src="{% static 'images/mais.png' %}" />
-            </a>
-          </div>           
-        </div>
-        
-        <div class="footer">
+       
+        <div class="container-info"> 
+              <form method="post" action="{%url 'adicionar_professor'%}">
+                {% csrf_token %}
+                {% for field in professorForm %}
+                  <div class="form-label">
+                    {{ field.label_tag }}
+                  </div>
+                  <div class="form-group">
+                  {{ field }}
+                  </div>
+                {% endfor %}
+                <input type="submit" name="adicionar" class="entrar" value="Adicionar">
+              </form>
         </div>
 
-      </div>
-        
+        <div class="footer">
+        </div>
       </div>        
     </div>
   </body>
