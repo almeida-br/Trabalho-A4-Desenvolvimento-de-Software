@@ -34,6 +34,9 @@ class Aluno(models.Model):
     turmaCod=models.CharField(max_length=8)
     disciplinas=models.ManyToManyField(Disciplina)
 
+    def __str__(self):
+        return f"{self.matricula} - {self.nome}: Código da Turma -  {self.turmaCod}, Data de Admissão: {self.dataAdmissao}, Telefone: {self.telefone}"
+
 class Turma(models.Model):
     codigo=models.CharField(max_length=8,primary_key=True)
     periodo=models.IntegerField(default=0)

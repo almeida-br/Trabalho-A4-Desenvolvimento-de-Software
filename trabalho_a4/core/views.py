@@ -1,11 +1,13 @@
-import random
+
+from reportlab.lib.pagesizes import letter
 from django.template.loader import render_to_string
 from django.http import FileResponse, HttpResponse
 from django.shortcuts import render,redirect
 from prompt_toolkit import HTML
 from .forms import *
-from django.contrib.auth.decorators import login_required
+from reportlab.pdfgen import canvas
 from core.models import *
+
 
 
 # Create your views here.
@@ -157,17 +159,31 @@ def admin_AdicionarRelatorio(request):
 
 
 def alunoRelatorio(request):
-    # Fetch the data you want to export
-    alunos = Aluno.objects.all()
 
-    # Render the HTML content
-    html_content = render_to_string('pages/pdf_template.html', {'alunos': alunos})
+    #alunos = Aluno.objects.all()
+    #html_content = render_to_string('pages/pdf_template.html', {'alunos': alunos})
+    #pdf = HTML(html_content).write_pdf()
+    #response=FileResponse(pdf, as_attachment=True, filename='export.pdf')
+    #response['Content-Type']='application/pdf'
+    #return response
 
-    # Convert HTML to PDF
-    pdf = HTML(string=html_content).write_pdf()
+    c = canvas.Canvas("output.pdf", pagesize=letter)
+    data = Aluno.objects.all()
 
-    # Return the PDF as a response
-    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+    x = 50
+    y = 700
+    
+    for record in data:
+        c.drawString(x, y, str(record.__str__()))
+        y -= 20  # Move down for next line
+
+    c.save()
+
+    with open("output.pdf", "rb") as pdf_file:
+        response = HttpResponse(pdf_file.read(), content_type='application/pdf')
+        response['Content-Disposition'] = 'attachment; filename="output.pdf"'
+        return response
+
 
 def professorRelatorio(request):
     # Fetch the data you want to export
@@ -177,7 +193,7 @@ def professorRelatorio(request):
     html_content = render_to_string('pages/pdf_template.html', {'professores': professores})
 
     # Convert HTML to PDF
-    pdf = HTML(string=html_content).write_pdf()
+    pdf = HTML(html_content).write_pdf()
 
     # Return the PDF as a response
     return FileResponse(pdf, as_attachment=True, filename='export.pdf')
