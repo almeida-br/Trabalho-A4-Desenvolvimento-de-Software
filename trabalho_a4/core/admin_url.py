@@ -13,7 +13,6 @@ urlpatterns = [
     path("adicionar_professor/",views.admin_AdicionarProfessor, name="adicionar_professor"),
     path("adicionar_turma/",views.admin_AdicionarTurma, name="adicionar_turma"),
     path("adicionar_disciplina/",views.admin_AdicionarDisciplina, name="adicionar_disciplina"),
-    path("adicionar_relatorio/",views.admin_AdicionarRelatorio, name="adicionar_relatorio"),
     path("exibir/",include("core.exibir_url")),
     path("deletar/",include("core.deletar_url"))
 ]

@@ -331,18 +331,12 @@
   width: 263px;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .sidebar {
-  border-right: 1px solid #E0E0E0;
+.aluno-quadro-horarios .container-quadro .title {
   background: #90C3DB;
-  margin-right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 74px 16px 616px 15px;
-  box-sizing: border-box;
-}
-.aluno-quadro-horarios .quadro-de-horrios-1 {
-  margin: 0 2px 13.5px 0;
+  padding: auto;
+  margin: 13px 0px;
+  padding: 5px 15px;
+  border-radius: 10px;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Judson';
@@ -406,13 +400,15 @@
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .container-8 {
-  margin: 0 6.5px 0 10.6px;
+.aluno-quadro-horarios .container-descricao {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 924.3px;
+  width: 100%;
   box-sizing: border-box;
+  background: #2893c9;
+  position: relative;
+  margin: 0 0 18px 0;
 }
 .aluno-quadro-horarios .perodo {
   margin: 6px 12.3px 14px 0;
@@ -424,16 +420,7 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-horarios .container {
-  margin: 6px 40.6px 14px 0;
-  display: inline-block;
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
+
 .aluno-quadro-horarios .vector-4 {
   background: #F5F5F5;
   transform: rotate(-90deg);
@@ -442,16 +429,32 @@
   width: 2px;
   height: 58px;
 }
-.aluno-quadro-horarios .turma-fes-030131 {
-  margin: 6px 24.7px 14px 0;
+.aluno-quadro-horarios .descricao-1 {
+  padding: 5px 25px;
+  width: 50%;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
   font-size: 25px;
   line-height: 1.5;
+  border-right: #90C3DB solid;
   color: #000000;
 }
+
+.aluno-quadro-horarios .descricao-2 {
+  padding: 5px  25px;
+  width:25%;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Judson';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.5;
+  border-right: #90C3DB solid;
+  color: #000000;
+}
+
 .aluno-quadro-horarios .vector-5 {
   background: #F5F5F5;
   transform: rotate(-90deg);
@@ -518,36 +521,26 @@
 .aluno-quadro-horarios .container-6 {
   background: #0979B0;
   position: relative;
-  padding: 0 17.6px;
-  width: 1088px;
+  width: 75vw;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .container-23 {
-  background: #90C3DB;
-  position: relative;
-  margin: 0 0 29px 2px;
+.aluno-quadro-horarios .container-quadro {
+
+  margin: 30px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1.5px 0 15px 0;
-  width: 1088px;
+  width: 75vw;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .horrios {
-  margin-right: 19px;
-  width: 123.6px;
+
+.aluno-quadro-horarios .dia {
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
   font-size: 25px;
-  line-height: 1.5;
-  color: #000000;
-}
-.aluno-quadro-horarios .segunda {
-  overflow-wrap: break-word;
-  font-family: 'Judson';
-  font-weight: 400;
-  font-size: 25px;
+  text-align: center;
   line-height: 1.5;
   color: #000000;
 }
@@ -591,28 +584,27 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-horarios .container-15 {
-  background: #0979B0;
+.aluno-quadro-horarios .container-dias{
+  background: #2893c9;
   position: relative;
-  margin-bottom: 9px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 19px 20.7px 18px 15.2px;
-  width: 1090px;
+  width: 100%;
+  justify-content: space-around;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .estrutura-de-dados {
-  margin-right: 38px;
-  width: 244.3px;
+
+.aluno-quadro-horarios .text{
   text-align: center;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
-  font-size: 25px;
+  font-size: 20px;
+  width: 15%;
   line-height: 1.5;
   color: #000000;
 }
+
 .aluno-quadro-horarios .jogos-digitais-4 {
   margin: 4px 19.1px 19px 0;
   display: inline-block;
@@ -651,12 +643,13 @@
   flex-direction: row;
   box-sizing: border-box;
 }
-.aluno-quadro-horarios .container-13 {
+.aluno-quadro-horarios .container-materia {
   margin: 0 0 43px 9.2px;
   display: flex;
+  align-content: center;
   flex-direction: row;
+  width: 100%;
   justify-content: space-between;
-  width: 771.9px;
   box-sizing: border-box;
 }
 .aluno-quadro-horarios .desenvolvimento-web {
@@ -829,8 +822,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 38px;
-  width: 1090px;
+
+  width: 100%;
   box-sizing: border-box;
 }
 .aluno-quadro-horarios .container-17 {
@@ -906,14 +899,16 @@
   width: 2px;
   height: 598px;
 }
-.aluno-quadro-horarios .container-25 {
+.aluno-quadro-horarios .container-content{
   position: relative;
-  margin: 38px 0 33px 0;
   display: flex;
-  width: 1090px;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
   height: fit-content;
   box-sizing: border-box;
 }
+
 .aluno-quadro-horarios .container-20 {
   position: relative;
   display: flex;
@@ -930,12 +925,15 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-horarios .s-1000 {
-  margin: 0 4.1px 106px 0.1px;
+.aluno-quadro-horarios .time {
+  background: #2893c9;
+  padding: 20px;
+  width: 15%;
   display: inline-block;
   overflow-wrap: break-word;
   font-family: 'Judson';
   font-weight: 400;
+  text-align: center;
   font-size: 21px;
   line-height: 1.5;
   color: #000000;
@@ -959,16 +957,11 @@
   line-height: 1.5;
   color: #000000;
 }
-.aluno-quadro-horarios .container-11 {
-  background: #0979B0;
-  position: absolute;
-  left: 325px;
-  bottom: 32px;
+.aluno-quadro-horarios .container-time {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 31px 4.4px 0 3.4px;
-  height: 524px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
   box-sizing: border-box;
 }
 .aluno-quadro-horarios .vector-15 {

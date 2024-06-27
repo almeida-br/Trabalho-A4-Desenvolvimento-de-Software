@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Judson:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static 'css/aluno/aluno_home.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/aluno/aluno_quadro_horarios.css' %}" />
   </head>
   <body>
-    <div class="aluno-home">
+    <div class="aluno-quadro-horarios">
       <div class="container-header">
         <div class="container-logo">
           <span class="title">
@@ -46,195 +46,82 @@
                 <a href="/aluno/disciplinas/" class="link">Disciplinas</a>
             </div>
             <div class="menu-item">
-              <img src="{% static 'images/solicitacoes.png' %}" style="width: 25px; height: 25px;" />
-              <a href="/aluno/solicitacoes/" class="link">Solicitações</a>
+              <img src="{% static 'images/logout.png' %}" style="width: 25px; height: 25px;" />
+              <a href="/" class="link">Sair</a>
             </div>
           </div>
           </div>
-          <div class="container-25">
-            <div class="container-17">
-              <div class="container-23">
-                <div class="quadro-de-horrios-1">
+          <div class="container-content">
+              <div class="container-quadro">
+                <div class="title">
                 Quadro de Horários 
                 </div>
                 <div class="container-6">
-                  <div class="container-9">
-                    <div class="container-8">
-                      <div class="container-26">
-                        <div class="curso">
-                        Curso:
-                        </div>
-                        <div class="vector-2">
-                        </div>
-                        <div class="bacharelado-em-sistemas-de-informao">
-                        Bacharelado em Sistemas de Informação 
-                        </div>
-                      </div>
-                      <div class="container-10">
-                        <div class="vector-7">
-                        </div>
-                        <div class="semestre-5">
-                        Semestre: 5º
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container-21">
-                      <div class="container-16">
-                        <div class="perodo">
-                        Período:
-                        </div>
-                        <div class="container">
-                        2024.1
-                        </div>
-                        <div class="vector-4">
-                        </div>
-                        <div class="turma-fes-030131">
-                        Turma: FES030131
-                        </div>
-                        <div class="vector-5">
-                        </div>
-                        <div class="turno-matutino">
-                        Turno: Matutino
-                        </div>
-                        <div class="vector-6">
-                        </div>
-                      </div>
-                      <div class="matrcula-123982198">
-                      Matrícula: 123982198
-                      </div>
-                    </div>
-                  </div>
-                  <div class="vector-3">
-                  </div>
+                  <table class="container-content">
+                    <thead>
+                      <tr class="container-descricao">
+                        <td class="descricao-1">Curso: Bacharelado em Sistemas de Informação </td>
+                        <td class="descricao-1">Semestre: 5º</td>
+                      </tr>
+                      <tr class="container-descricao">
+                        <td class="descricao-2">Período: 2024.1</td>
+                        <td class="descricao-2">Turma: FES030131</td>
+                        <td class="descricao-2">Turno: Matutino </td>
+                        <td class="descricao-2">Matrícula: 123982198 </td>
+                      </tr>
+                    </thead>
+                    <tbody class="container">
+                    <tr class="container-dias">
+                      <td class="dia">Horários</td>
+                      <td class="dia">Segunda</td>
+                      <td class="dia">Terça</td>
+                      <td class="dia">Quarta</td>
+                      <td class="dia">Quinta</td>
+                      <td class="dia">Sexta</td>
+                      <td class="dia">Sábado</td>
+                    </tr>
+                    <tr class="container-time">
+                      <td class="time">07:30 às 09:10</td>
+                      <td class="text">Estrutura de Dados</td>
+                      <td class="text">Jogos Digitais</td>
+                      <td class="text">Análise Orientada a Objeto</td>
+                      <td class="text">Desenvolvimento Web</td>
+                      <td class="text"></td>
+                      <td class="text"></td>
+                    </tr>
+                    <tr class="container-time">
+                      <td class="time">09:10 às 10:00</td>
+                      <td class="text">Estrutura de Dados</td>
+                      <td class="text">Jogos Digitais</td>
+                      <td class="text">Análise Orientada a Objeto</td>
+                      <td class="text">Desenvolvimento Web</td>
+                      <td class="text"></td>
+                      <td class="text"></td>
+                    </tr>
+                    <tr class="container-time">
+                      <td class="time">10:10 às 11:00</td>
+                      <td class="text">Estrutura de Dados</td>
+                      <td class="text">Jogos Digitais</td>
+                      <td class="text">Análise Orientada a Objeto</td>
+                      <td class="text">Desenvolvimento Web</td>
+                      <td class="text"></td>
+                      <td class="text"></td>
+                    </tr>
+                    <tr class="container-time">
+                      <td class="time">11:00 às 12:20</td>
+                      <td class="text">Estrutura de Dados</td>
+                      <td class="text">Jogos Digitais</td>
+                      <td class="text">Análise Orientada a Objeto</td>
+                      <td class="text">Desenvolvimento Web</td>
+                      <td class="text"></td>
+                      <td class="text"></td>
+                    </tr>
+                  </tbody>
+                  </table>
                 </div>
-              </div>
-              <div class="container">
-                <div class="container-15">
-                  <span class="horrios">
-                  Horários 
-                  </span>
-                  <span class="segunda">
-                  Segunda
-                  </span>
-                  <span class="tera">
-                  Terça 
-                  </span>
-                  <span class="quarta">
-                  Quarta 
-                  </span>
-                  <span class="quinta">
-                  Quinta
-                  </span>
-                  <span class="sexta">
-                  Sexta 
-                  </span>
-                  <span class="sbado">
-                  Sábado 
-                  </span>
-                </div>
-                <div class="container-13">
-                  <span class="estrutura-de-dados">
-                  Estrutura de Dados
-                  </span>
-                  <div class="container-19">
-                    <div class="jogos-digitais-4">
-                    Jogos Digitais
-                    </div>
-                    <div class="anlise-orientada-aobjeto">
-                    Análise Orientada a Objeto
-                    </div>
-                    <div class="desenvolvimento-web-2">
-                    Desenvolvimento Web
-                    </div>
-                  </div>
-                </div>
-                <div class="container-22">
-                  <span class="desenvolvimento-web">
-                  Desenvolvimento Web
-                  </span>
-                  <div class="container-2">
-                    <div class="jogos-digitais-1">
-                    Jogos Digitais
-                    </div>
-                    <span class="anlise-orientada-aobjeto-1">
-                    Análise Orientada a Objeto
-                    </span>
-                    <span class="desenvolvimento-web-3">
-                    Desenvolvimento Web
-                    </span>
-                  </div>
-                </div>
-                <div class="container-3">
-                  <div class="desenvolvimento-web-1">
-                  Desenvolvimento Web
-                  </div>
-                  <div class="container-24">
-                    <div class="jogos-digitais-2">
-                    Jogos Digitais
-                    </div>
-                    <div class="anlise-orientada-aobjeto-2">
-                    Análise Orientada a Objeto
-                    </div>
-                    <div class="desenvolvimento-web-4">
-                    Desenvolvimento Web
-                    </div>
-                  </div>
-                </div>
-                <div class="container-18">
-                  <div class="jogos-digitais">
-                  Jogos Digitais
-                  </div>
-                  <div class="container-7">
-                    <div class="jogos-digitais-3">
-                    Jogos Digitais
-                    </div>
-                    <span class="anlise-orientada-aobjeto-3">
-                    Análise Orientada a Objeto
-                    </span>
-                    <span class="desenvolvimento-web-5">
-                    Desenvolvimento Web
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="vector-8">
-            </div>
-            <div class="vector-9">
-            </div>
-            <div class="vector-10">
-            </div>
-            <div class="vector-11">
-            </div>
-            <div class="vector-12">
-            </div>
-            <div class="vector-13">
-            </div>
-            <div class="vector-14">
-            </div>
-            <div class="vector-17">
-            </div>
+              </div>  
           </div>
         </div>
-        <div class="container-11">
-          <div class="s-0910">
-          07:30 às 09:10
-          </div>
-          <div class="s-1000">
-          09:10 às 10:00
-          </div>
-          <div class="s-1100">
-          10:10 às 11:00
-          </div>
-          <span class="s-1220">
-          11:00 às 12:20
-          </span>
-        </div>
-        <div class="vector-15">
-        </div>
-        <div class="vector-16">
-        </div>
-
     </div>
   </body>
 </html>

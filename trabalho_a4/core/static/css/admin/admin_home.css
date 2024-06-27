@@ -93,6 +93,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: space-between;
   width: 80vw;
   box-sizing: border-box;
 }
@@ -160,7 +161,7 @@
 .admin-home .container-relatorio {
   margin-bottom: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: flex-start;
   width: fit-content;
   box-sizing: border-box;
@@ -192,6 +193,20 @@
   box-sizing: border-box;
   margin: 30px 0px 20px ;
 }
+
+.deletar{
+  border-radius: 8px;
+  background: rgba(247, 247, 247, 0.5);
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0 8px 16px;
+  width: 263px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+}
+
 .admin-home .solicitacoes-recentes {
   margin: 0 0 28.5px 52.6px;
   display: inline-block;

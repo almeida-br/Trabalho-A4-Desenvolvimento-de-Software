@@ -1,13 +1,18 @@
 
 from reportlab.lib.pagesizes import letter
-from django.template.loader import render_to_string
+from django.template.loader import *
 from django.http import FileResponse, HttpResponse
 from django.shortcuts import render,redirect
 from prompt_toolkit import HTML
 from .forms import *
-from reportlab.pdfgen import canvas
 from core.models import *
 
+
+from io import BytesIO
+from xhtml2pdf import pisa
+from django.template.loader import get_template
+from django.template import Context
+from django.http import HttpResponse
 
 
 # Create your views here.
@@ -61,7 +66,7 @@ def exibirAluno(request,id):
     aluno=Aluno.objects.get(matricula=id)
 
     context={
-        'aluno':aluno,
+        'aluno':aluno
     }
     return render(request,"pages/admin/exibir/exibir_aluno.html",context)
 
@@ -74,7 +79,7 @@ def exibirProfessor(request,id):
 
 def exibirDisciplina(request,id):
     context={
-        'disciplina':Disciplina.objects.get(codigo=id)
+        'disciplina':Disciplina.objects.get(codigo=id).values()
     }
     return render(request,"pages/admin/exibir/exibir_disciplina.html",context)
 
@@ -153,76 +158,55 @@ def admin_AdicionarDisciplina(request):
         disciplinaForm=DisciplinaForm(prefix='disciplina')
     return render(request,'pages/admin/adicionar/admin_adicionarDisciplina.html', {'disciplinaForm': disciplinaForm})
 
-def admin_AdicionarRelatorio(request):
-  
-    return render(request,'pages/admin/adicionar/admin_adicionarRelatorio.html')
-
 
 def alunoRelatorio(request):
-
-    #alunos = Aluno.objects.all()
-    #html_content = render_to_string('pages/pdf_template.html', {'alunos': alunos})
-    #pdf = HTML(html_content).write_pdf()
-    #response=FileResponse(pdf, as_attachment=True, filename='export.pdf')
-    #response['Content-Type']='application/pdf'
-    #return response
-
-    c = canvas.Canvas("output.pdf", pagesize=letter)
-    data = Aluno.objects.all()
-
-    x = 50
-    y = 700
-    
-    for record in data:
-        c.drawString(x, y, str(record.__str__()))
-        y -= 20  # Move down for next line
-
-    c.save()
-
-    with open("output.pdf", "rb") as pdf_file:
-        response = HttpResponse(pdf_file.read(), content_type='application/pdf')
-        response['Content-Disposition'] = 'attachment; filename="output.pdf"'
-        return response
+    alunos=Aluno.objects.all()
+    template=get_template('pages/relatorios/pdf_alunos.html')
+    context={'alunos':alunos}
+    html=template.render(context)
+    file=open(f"relatorio_Alunos.pdf","wb+")
+    pdf= pisa.pisaDocument(src=BytesIO(html.encode("UTF-8")), dest=file)
+    file.truncate()
+    if not pdf.err:
+        return HttpResponse(file, content_type='application/pdf')
+    return None
 
 
 def professorRelatorio(request):
-    # Fetch the data you want to export
-    professores = Professor.objects.all()
-
-    # Render the HTML content
-    html_content = render_to_string('pages/pdf_template.html', {'professores': professores})
-
-    # Convert HTML to PDF
-    pdf = HTML(html_content).write_pdf()
-
-    # Return the PDF as a response
-    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+    professores=Professor.objects.all()
+    template=get_template('pages/relatorios/pdf_professores.html')
+    context={'professores':professores}
+    html=template.render(context)
+    file=open(f"relatorio_Professores.pdf","wb+")
+    pdf= pisa.pisaDocument(src=BytesIO(html.encode("UTF-8")), dest=file)
+    file.truncate()
+    if not pdf.err:
+        return HttpResponse(file, content_type='application/pdf')
+    return None
 
 def disciplinaRelatorio(request):
-    # Fetch the data you want to export
-    disciplinas = Disciplina.objects.all()
-
-    # Render the HTML content
-    html_content = render_to_string('pages/pdf_template.html', {'disciplinas': disciplinas})
-
-    # Convert HTML to PDF
-    pdf = HTML(string=html_content).write_pdf()
-
-    # Return the PDF as a response
-    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+    disciplinas=Disciplina.objects.all()
+    template=get_template('pages/relatorios/pdf_disciplinas.html')
+    context={'disciplinas':disciplinas}
+    html=template.render(context)
+    file=open(f"relatorio_Disciplinas.pdf","wb+")
+    pdf= pisa.pisaDocument(src=BytesIO(html.encode("UTF-8")), dest=file)
+    file.truncate()
+    if not pdf.err:
+        return HttpResponse(file, content_type='application/pdf')
+    return None
 
 def turmaRelatorio(request):
-    # Fetch the data you want to export
-    turmas = Turma.objects.all()
-
-    # Render the HTML content
-    html_content = render_to_string('pages/pdf_template.html', {'turmas': turmas})
-
-    # Convert HTML to PDF
-    pdf = HTML(string=html_content).write_pdf()
-
-    # Return the PDF as a response
-    return FileResponse(pdf, as_attachment=True, filename='export.pdf')
+    turmas=Turma.objects.all()
+    template=get_template('pages/relatorios/pdf_turmas.html')
+    context={'turmas':turmas}
+    html=template.render(context)
+    file=open(f"relatorio_Turmas.pdf","wb+")
+    pdf= pisa.pisaDocument(src=BytesIO(html.encode("UTF-8")), dest=file)
+    file.truncate()
+    if not pdf.err:
+        return HttpResponse(file, content_type='application/pdf')
+    return None
 
 
 def admin_Alunos(request):
@@ -268,9 +252,6 @@ def aluno_Quadro(request):
 def aluno_Disciplinas(request):
     return render(request,'pages/aluno/aluno_disciplinas.html')
 
-def aluno_Solicitacoes(request):
-    return render(request,'pages/aluno/aluno_solicitacoes.html')
-
 #páginas Professor
 
 def professorHome(request):
@@ -282,5 +263,3 @@ def professor_Turmas(request):
 def professor_Disciplinas(request):
     return render(request,'pages/professor/professor_disciplinas.html')
 
-def professor_Solicitacoes(request):
-    return render(request,'pages/professor/professor_solicitacoes.html')

@@ -1,6 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.views import LoginView
+from django.core import serializers
 
 from core.models import *
 
@@ -44,10 +45,10 @@ class DisciplinaForm(forms.ModelForm):
     class Meta:
         model=Disciplina
         fields={"codigo","nome","professores","cargaHoraria","horario"}
-
+    
     codigo=forms.CharField(max_length=8)
     nome=forms.CharField()
-    professores=forms.CharField()
+    professores=forms.CheckboxSelectMultiple(choices=Professor.objects.all())
     cargaHoraria=forms.CharField(label="Carga horária")
     horario=forms.CharField()
 
@@ -60,10 +61,10 @@ class TurmaForm(forms.ModelForm):
         fields={"codigo","periodo","sala","dataAbertura","quantidadeAlunos"}
 
     codigo=forms.CharField()
-    periodo=forms.CharField()
+    periodo=forms.IntegerField()
     sala=forms.CharField()
-    dataAbertura=forms.CharField(label="Data de abertura")
-    quantidadeAlunos=forms.CharField(label="Quantidade de alunos")
+    dataAbertura=forms.DateField(label="Data de abertura")
+    quantidadeAlunos=forms.IntegerField(label="Quantidade de alunos")
 
     field_order=[codigo,periodo,sala,dataAbertura,quantidadeAlunos]
 

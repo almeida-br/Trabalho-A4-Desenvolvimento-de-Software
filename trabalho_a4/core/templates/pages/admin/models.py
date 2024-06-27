@@ -23,25 +23,17 @@ class Disciplina(models.Model):
     professores=models.ManyToManyField(Professor)
     conteudo=[models.FileField]
     cargaHoraria=models.IntegerField(default=0)
-    horario=models.CharField(max_length=5)
+    horario=models.DateField()
 
 class Aluno(models.Model):
     matricula=models.IntegerField(primary_key=True,default=0000000000)
     cpf=models.BigIntegerField(default=00000000000)
     nome=models.CharField(max_length=200)
     telefone=models.CharField(max_length=11,default=00000000000)
-    dataAdmissao=models.DateField
+    dataAdmissao=models.DateField()
     turmaCod=models.CharField(max_length=8)
     disciplinas=models.ManyToManyField(Disciplina)
 
-    def __str__(self):
-        string=f"""Matrícula: {self.matricula} \n
-                Cpf: {self.cpf}  \n
-                Nome: {self.nome}  \n 
-                Telefone: {self.telefone} \n
-                Data de admissão: {self.dataAdmissao} \n
-                Turma: {self.turmaCod}"""
-        return string
 
 class Turma(models.Model):
     codigo=models.CharField(max_length=8,primary_key=True)

@@ -67,12 +67,17 @@
           </div>
           <a href="" class="link">Relatórios</a>
         </div>
+        <div class="menu-item">
+          <div class="vector">
+            <img src="{% static 'images/logout.png' %}" style="width: 25px; height: 25px;" />
+          </div>
+          <a href="/" class="link">Sair</a>
+        </div>
       </div>
       </div>
 
       <div class="container-content">
         <div class="container-header">
-          <img src="{% static 'images/options.png' %}" style="width: 50px; height: 50px;" />
           <div class="title">
             <span class="portal-do-admin">
             Portal do admin
@@ -85,38 +90,42 @@
         </div>
         <div class="container-relatorios">
           <div class="relatorio">
+           
             <span class="text">
+              <a href="/admin/relatorios/professores/">
             Relatório de professores
+              </a>
             </span>
+ 
           </div>
           <div class="relatorio">
+           
             <span class="text">
+              <a href="/admin/relatorios/turmas/">
             Relatório de turmas
+              </a>
             </span>
+ 
           </div>
           <div class="relatorio">
-            <a href="/admin/relatorios/alunos/">
+         
             <span class="text">
+              <a href="/admin/relatorios/alunos/">
             Relatório de alunos
+              </a>
             </span>
-          </a>
+
           </div>
         </div>
         <div class="container-relatorios">
           <div class="relatorio">
+
             <span class="text">
+              <a href="/admin/relatorios/disciplinas/">
             Relatório de disciplinas
+              </a>
             </span>
-          </div>
-          <div class="relatorio">
-            <span class="text">
-            Contrato de professores
-            </span>
-          </div>
-          <div class="relatorio">
-            <span class="text">
-            Contrato de alunos
-            </span>
+
           </div>
         </div>
 
